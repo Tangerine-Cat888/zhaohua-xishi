@@ -1,4 +1,4 @@
-# 朝花夕拾
+# 朝花夕拾（Zhaohua Xishi）
 
 日记写了很多，却很少回看？
 
@@ -19,12 +19,12 @@
 
 ## 下载与安装
 
-当前提供 **0.1.1 预发布版**，尚未上架 Obsidian 官方第三方插件市场。
+当前提供 **0.1.2 预发布版**，尚未上架 Obsidian 官方第三方插件市场。
 
-1. 打开 [0.1.1 下载页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.1.1)。
+1. 打开 [0.1.2 下载页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.1.2)。
 2. 下载 Assets 中的 main.js、manifest.json、styles.css 和 LICENSE。
 3. 在你的库中创建 `.obsidian/plugins/zhaohua-xishi/`，将这四个文件放入其中。若修改过库配置目录，请使用自己的配置目录。
-4. 重新加载 Obsidian，在“设置 → 第三方插件”中启用“朝花夕拾”。
+4. 重新加载 Obsidian，在“设置 → 第三方插件”中启用“Zhaohua Xishi”。
 5. 在插件设置中指定要回顾的日记文件夹及日期格式。
 
 升级时替换以上四个文件，保留自己的 data.json。请不要将个人 data.json 上传到本仓库。
@@ -102,7 +102,7 @@ GitHub Actions 在 main 分支推送、PR 或手动触发时运行检查。
 
 ## 使用许可
 
-从 0.1.1 起采用自定义的[朝花夕拾源码使用许可](LICENSE)，不再标注为 MIT 或标准开源软件。
+从 0.1.2 起采用自定义的[朝花夕拾源码使用许可](LICENSE)，不再标注为 MIT 或标准开源软件。
 
 - 允许个人使用、工作中自用、企业内部使用、修改及免费分享。
 - 禁止售卖插件、付费打包，以及集成到对外收费的产品或服务中获利；另行取得作者书面授权的除外。

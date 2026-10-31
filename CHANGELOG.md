@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 — 2026-10-31 (pre-release)
+
+- Change the manifest display name to Zhaohua Xishi to meet directory naming requirements.
+- Keep the plugin ID, Chinese interface, reflection heading and stored settings unchanged.
+
+
 ## 0.1.1 — 2026-10-31 (pre-release)
 
 - Random journal review, on-this-day review and previous-entry navigation.

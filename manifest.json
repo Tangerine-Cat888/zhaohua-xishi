@@ -1,0 +1,9 @@
+{
+  "id": "zhaohua-xishi",
+  "name": "朝花夕拾",
+  "version": "0.1.1",
+  "minAppVersion": "1.7.2",
+  "description": "Rediscover past journal entries and save today's reflections with links to the originals.",
+  "author": "Tangerine.Cat",
+  "isDesktopOnly": false
+}

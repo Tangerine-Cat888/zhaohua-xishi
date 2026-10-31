@@ -1,0 +1,59 @@
+.zhaohua-view {
+  container-type:inline-size;
+  background:var(--background-primary);
+  color:var(--text-normal);
+}
+.zhaohua-shell {
+  --zh-line:var(--background-modifier-border);
+  --zh-muted:var(--text-muted);
+  max-width:680px;
+  margin:0 auto;
+  padding:28px 24px 64px;
+  font-family:var(--font-text);
+}
+.zhaohua-header {display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:48px}
+.zhaohua-header h1 {font-size:19px;line-height:1.4;font-weight:600;letter-spacing:.06em;margin:0;color:var(--text-normal)}
+.zhaohua-modes {box-sizing:border-box;display:flex;gap:4px;padding:4px;background:var(--background-secondary);border-radius:10px}
+.zhaohua-shell button {font-family:inherit;font-size:14px;min-height:36px;padding:8px 14px;height:auto;box-shadow:none;border:1px solid transparent;border-radius:7px;cursor:pointer;transition:background-color 140ms,color 140ms,box-shadow 140ms}
+.zhaohua-modes button {background:transparent;color:var(--text-muted)}
+.zhaohua-modes button[aria-pressed="true"] {background:var(--background-primary);color:var(--text-normal);box-shadow:0 1px 4px #00000012;font-weight:600}
+.zhaohua-shell button:hover {background:var(--background-modifier-hover)}
+.zhaohua-shell button:focus-visible {outline:2px solid var(--interactive-accent);outline-offset:3px}
+.zhaohua-shell button:disabled {opacity:.5;cursor:default}
+.zhaohua-card {margin:0;padding:0;background:transparent;border:0}
+.zhaohua-date-row {display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:24px;border-bottom:1px solid var(--zh-line)}
+.zhaohua-date {display:block;font-size:clamp(23px,4cqi,29px);font-weight:600;line-height:1.4;letter-spacing:-.02em}
+.zhaohua-age {font-size:14px;color:var(--zh-muted);margin-top:8px;font-variant-numeric:tabular-nums}
+.zhaohua-shell .zhaohua-link {padding:6px 0;background:transparent;color:var(--text-muted);white-space:nowrap}
+.zhaohua-shell .zhaohua-link:hover {color:var(--text-normal);text-decoration:underline;background:transparent}
+.zhaohua-body {font-size:17px;line-height:1.9;overflow-wrap:anywhere;padding:16px 0 32px}
+.zhaohua-body p {margin:1.1em 0}
+.zhaohua-body h1 {font-size:1.5em;line-height:1.45}
+.zhaohua-body h2 {font-size:1.25em;line-height:1.5}
+.zhaohua-body img {max-width:100%;height:auto;border-radius:5px}
+.zhaohua-body pre,.zhaohua-body table {max-width:100%;overflow:auto}
+.zhaohua-body blockquote {margin-inline:0}
+.zhaohua-reflection {padding-top:26px;border-top:1px solid var(--zh-line)}
+.zhaohua-reflection h2 {font-size:16px;font-weight:600;line-height:1.5;margin:0 0 16px}
+.zhaohua-reflection textarea {display:block;box-sizing:border-box;width:100%;resize:vertical;min-height:120px;padding:16px;font:inherit;font-size:15px;line-height:1.8;color:var(--text-normal);background:var(--background-secondary);border:1px solid transparent;border-radius:8px;box-shadow:none;transition:border-color 160ms,background-color 160ms}
+.zhaohua-reflection textarea:focus,.zhaohua-reflection textarea:focus-visible {outline:none;box-shadow:none;border-color:var(--text-muted);background:var(--background-primary)}
+.zhaohua-reflection textarea::placeholder {color:var(--text-muted)}
+.zhaohua-hint {font-size:13px;line-height:1.7;color:var(--zh-muted);margin:12px 0}
+.zhaohua-actions {display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+.zhaohua-actions button {background:var(--background-secondary);color:var(--text-normal)}
+.zhaohua-actions button.mod-cta {background:var(--interactive-accent);color:var(--text-on-accent)}
+.zhaohua-actions button.mod-cta:hover:not(:disabled) {background:var(--interactive-accent-hover)}
+.zhaohua-empty {padding:40px 0;font-size:16px;line-height:1.8;color:var(--text-muted)}
+@container (max-width:480px) {
+ .zhaohua-shell {padding:20px 18px 40px}
+ .zhaohua-header {align-items:flex-start;flex-direction:column;gap:16px;margin-bottom:32px}
+ .zhaohua-modes {width:100%}
+ .zhaohua-modes button {flex:1;min-height:40px}
+ .zhaohua-date-row {align-items:flex-start;flex-direction:column;gap:8px;padding-bottom:16px}
+ .zhaohua-date {font-size:24px}
+ .zhaohua-body {font-size:16px}
+ .zhaohua-actions button {min-height:42px}
+}
+@media (prefers-reduced-motion:reduce) {
+ .zhaohua-shell button,.zhaohua-reflection textarea {transition:none}
+}

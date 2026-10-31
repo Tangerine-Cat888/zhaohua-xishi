@@ -1,0 +1,12 @@
+import {readFile,readdir} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const read=async p=>JSON.parse(await readFile(p,'utf8'));
+const manifest=await read('manifest.json'),pkg=await read('package.json');
+assert.equal(manifest.version,pkg.version);
+assert.match(manifest.version,/^\d+\.\d+\.\d+$/);
+assert.equal(manifest.author,'Tangerine.Cat');
+const files=(await readdir('dist/zhaohua-xishi')).sort();
+assert.deepEqual(files,['LICENSE','main.js','manifest.json','styles.css']);
+for(const file of files) assert.equal(await readFile(file,'utf8'),await readFile('dist/zhaohua-xishi/'+file,'utf8'));
+assert.ok((await readFile('LICENSE','utf8')).includes('Tangerine.Cat'));
+console.log('Release files verified: version, author, exact allowlist and source/build consistency.');

@@ -1,0 +1,17 @@
+node_modules/
+main.js
+dist/
+work/
+
+data.json
+.env
+.env.*
+*.zip
+AGENT.md
+
+
+# Local planning and verification records
+DESIGN.md
+RELEASE-STATUS.md
+RELEASE-CHECKLIST.md
+AGENTS.md

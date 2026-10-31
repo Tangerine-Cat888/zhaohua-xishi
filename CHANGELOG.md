@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 — 2026-10-31
+
+- Add English installation, usage, privacy, licensing and compatibility documentation for directory review.
+- Correct release status in the Chinese guide. No runtime changes.
+
+
 ## 0.1.2 — 2026-10-31 (pre-release)
 
 - Change the manifest display name to Zhaohua Xishi to meet directory naming requirements.

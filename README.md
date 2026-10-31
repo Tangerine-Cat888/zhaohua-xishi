@@ -1,3 +1,55 @@
+# Zhaohua Xishi
+
+Rediscover past journal entries in Obsidian, revisit the same day in earlier years, and save today's reflections with links to the originals. The plugin interface currently uses Chinese labels; this guide explains the main controls.
+
+Author: Tangerine.Cat. Minimum declared Obsidian version: 1.7.2.
+
+## Features
+
+- Random review from a configured journal folder, including year subfolders.
+- Prefer entries not reviewed before, with a configurable cooldown.
+- On-this-day review, previous-entry navigation, and persistent drafts.
+- Native Markdown rendering for text, images and links.
+- Append reflections to today's daily note without changing the original entry.
+- Inherit the core Daily Notes folder, date format and template, or set them separately.
+
+## Installation
+
+The plugin is being submitted to the community directory. Until it is listed, install it manually:
+
+1. Download main.js, manifest.json, styles.css and LICENSE from the [0.1.3 release](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.1.3).
+2. Create the folder .obsidian/plugins/zhaohua-xishi/ inside your vault. If you use a custom configuration directory, replace .obsidian accordingly.
+3. Copy the downloaded files into that folder.
+4. Reload Obsidian, open Settings > Community plugins, and enable **Zhaohua Xishi**.
+5. Open the plugin settings and choose your journal folder and date format.
+
+When upgrading, replace the installation files but keep your personal data.json.
+
+## Usage
+
+1. For entries such as Diary/2024/2024-01-17.md, set the journal folder to Diary, enable subfolders, and use YYYY-MM-DD as the date format.
+2. Click the book icon in the ribbon to open the review view.
+3. Select **随机回顾** (Random review) or **往年今日** (On this day).
+4. Use **再来一篇** (Another entry), **上一篇** (Previous entry), or **下一年** (Next year) to navigate. Use **打开原文** (Open original) to open the source note.
+5. Write in **今天的感想** (Today's reflection), then click **保存感想** (Save reflection). Your text is appended under the configured heading in today's note, with a link to the source.
+6. Daily-note creation inherits the core Daily Notes settings by default. Choose **单独指定** (Custom) in the template setting to configure a separate destination and template.
+
+Only valid journal dates before today are reviewed. Drafts and history persist locally. Templates apply only when today's note does not exist; existing content is preserved. Core template variables are supported. Templater scripts are not executed: create today's note with Templater first if needed.
+
+## Privacy and license
+
+No telemetry, AI service or plugin-initiated network requests. Journal images and embeds may load external resources through Obsidian's native renderer. Local drafts and history are stored in plugin data.json; protect it when syncing or backing up. See [PRIVACY.md](PRIVACY.md).
+
+This is source-available software under the custom [LICENSE](LICENSE). Personal use, internal work use, modification and free sharing are allowed. Selling the plugin, paid bundling, and integration into paid products or services require separate written permission. Redistribution must retain the license and copyright notice. This summary does not replace the license.
+
+## Compatibility and feedback
+
+Some features have been tested on Obsidian 1.14.5 and a simulated mobile layout. Physical mobile devices, version 1.7.2, and a full cold start have not been verified. The plugin currently uses the classic settings API, so its options do not appear in the newer app-wide settings search.
+
+Report reproducible problems via [Issues](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues). Include version numbers and anonymized examples rather than private journal entries.
+
+---
+
 # 朝花夕拾（Zhaohua Xishi）
 
 日记写了很多，却很少回看？
@@ -19,9 +71,9 @@
 
 ## 下载与安装
 
-当前提供 **0.1.2 预发布版**，尚未上架 Obsidian 官方第三方插件市场。
+当前提供 **0.1.3**，尚未上架 Obsidian 官方第三方插件市场。
 
-1. 打开 [0.1.2 下载页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.1.2)。
+1. 打开 [0.1.3 下载页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.1.3)。
 2. 下载 Assets 中的 main.js、manifest.json、styles.css 和 LICENSE。
 3. 在你的库中创建 `.obsidian/plugins/zhaohua-xishi/`，将这四个文件放入其中。若修改过库配置目录，请使用自己的配置目录。
 4. 重新加载 Obsidian，在“设置 → 第三方插件”中启用“Zhaohua Xishi”。
@@ -102,7 +154,7 @@ GitHub Actions 在 main 分支推送、PR 或手动触发时运行检查。
 
 ## 使用许可
 
-从 0.1.2 起采用自定义的[朝花夕拾源码使用许可](LICENSE)，不再标注为 MIT 或标准开源软件。
+本项目采用自定义的[朝花夕拾源码使用许可](LICENSE)，不再标注为 MIT 或标准开源软件。
 
 - 允许个人使用、工作中自用、企业内部使用、修改及免费分享。
 - 禁止售卖插件、付费打包，以及集成到对外收费的产品或服务中获利；另行取得作者书面授权的除外。

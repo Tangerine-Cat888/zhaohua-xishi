@@ -1,163 +1,53 @@
-# Zhaohua Xishi
+# 朝花夕拾 · Zhaohua Xishi
 
-Rediscover past journal entries in Obsidian, revisit the same day in earlier years, and save today's reflections with links to the originals. The plugin interface currently uses Chinese labels; this guide explains the main controls.
+日记写了很多，却很少回看？随机翻开过去的日记，回顾往年今日，把今天的感想保存到今日日记。
 
-Author: Tangerine.Cat. Minimum declared Obsidian version: 1.7.2.
+作者：Tangerine.Cat · 当前版本：0.2.0
 
-## Features
+## 免费功能
 
-- Random review from a configured journal folder, including year subfolders.
-- Prefer entries not reviewed before, with a configurable cooldown.
-- On-this-day review, previous-entry navigation, and persistent drafts.
-- Native Markdown rendering for text, images and links.
-- Append reflections to today's daily note without changing the original entry.
-- Inherit the core Daily Notes folder, date format and template, or set them separately.
+随机回顾、往年今日、回顾历史导航及保存感想永久免费。支持正文与图片阅读、打开原文，保存感想时附原日记链接，可沿用核心日记插件的目录、日期格式和模板。
 
-## Installation
+## 永久会员（可选付费）
 
-The plugin is being submitted to the community directory. Until it is listed, install it manually:
+早鸟买断价 **¥19.9**。包含“我的日记本”、后续新功能更新，以及售后支持与问题反馈。
 
-1. Download main.js, manifest.json, styles.css and LICENSE from the [0.1.3 release](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.1.3).
-2. Create the folder .obsidian/plugins/zhaohua-xishi/ inside your vault. If you use a custom configuration directory, replace .obsidian accordingly.
-3. Copy the downloaded files into that folder.
-4. Reload Obsidian, open Settings > Community plugins, and enable **Zhaohua Xishi**.
-5. Open the plugin settings and choose your journal folder and date format.
+“我的日记本”提供按月整理日记、年度书架、自定义封面、阅读目录、标题来源和字号设置。目前不提供导出。
 
-When upgrading, replace the installation files but keep your personal data.json.
+在插件设置查看会员信息，添加作者微信 **qian_yu_sui** 购买。复制本机申请码发给作者，收到授权码后在同一页面激活。
 
-## Usage
+授权绑定本机 Obsidian 应用凭据，不写入笔记库，也不随笔记同步。清空应用数据、换机或部分重装操作可能需要重新签发。完整应用环境克隆或修改程序不在离线授权的保护范围内。
 
-1. For entries such as Diary/2024/2024-01-17.md, set the journal folder to Diary, enable subfolders, and use YYYY-MM-DD as the date format.
-2. Click the book icon in the ribbon to open the review view.
-3. Select **随机回顾** (Random review) or **往年今日** (On this day).
-4. Use **再来一篇** (Another entry), **上一篇** (Previous entry), or **下一年** (Next year) to navigate. Use **打开原文** (Open original) to open the source note.
-5. Write in **今天的感想** (Today's reflection), then click **保存感想** (Save reflection). Your text is appended under the configured heading in today's note, with a link to the source.
-6. Daily-note creation inherits the core Daily Notes settings by default. Choose **单独指定** (Custom) in the template setting to configure a separate destination and template.
+## 安装与升级
 
-Only valid journal dates before today are reviewed. Drafts and history persist locally. Templates apply only when today's note does not exist; existing content is preserved. Core template variables are supported. Templater scripts are not executed: create today's note with Templater first if needed.
+1. 从 [0.2.0 发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.2.0) 下载 `main.js`、`manifest.json`、`styles.css`。
+2. 放入笔记库 `.obsidian/plugins/zhaohua-xishi/`，重新加载插件。升级时保留已有 `data.json`。
+3. 配置日记文件夹、日期格式，从侧栏入口打开插件。比如 `Diary/2024/2024-01-17.md`，目录设为 `Diary`，日期格式为 `YYYY-MM-DD`，开启子文件夹。
 
-## Privacy and license
+社区目录上架与审核状态以 Obsidian 页面为准，GitHub 发布不代表审核已通过。
 
-No telemetry, AI service or plugin-initiated network requests. Journal images and embeds may load external resources through Obsidian's native renderer. Local drafts and history are stored in plugin data.json; protect it when syncing or backing up. See [PRIVACY.md](PRIVACY.md).
+## 隐私与兼容性
 
-This is source-available software under the custom [LICENSE](LICENSE). Personal use, internal work use, modification and free sharing are allowed. Selling the plugin, paid bundling, and integration into paid products or services require separate written permission. Redistribution must retain the license and copyright notice. This summary does not replace the license.
+不上传日记，不调用 AI，无遥测或插件主动网络请求。远程图片和嵌入可能由 Obsidian 原生渲染器联网加载。见 [PRIVACY.md](PRIVACY.md)。
 
-## Compatibility and feedback
+已进行 Windows 桌面验收。手机真机和声明的最低 Obsidian 1.7.2 版本尚未完成实测。反馈时请勿提交私人日记或授权码。
 
-Some features have been tested on Obsidian 1.14.5 and a simulated mobile layout. Physical mobile devices, version 1.7.2, and a full cold start have not been verified. The plugin currently uses the classic settings API, so its options do not appear in the newer app-wide settings search.
+## 仓库与许可
 
-Report reproducible problems via [Issues](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues). Include version numbers and anonymized examples rather than private journal entries.
+公开仓库提供安装包、版本信息和 [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)。新版源码在私有仓库维护并提供给 Obsidian 审核。公开仓库保留的旧版源码和历史不代表 0.2.0 的实现。
+
+使用与分享须遵循 [LICENSE](LICENSE)。未经作者另行授权，不得转售或付费打包。既有版本已授予的权利不因本次发布被追溯改变。
 
 ---
 
-# 朝花夕拾（Zhaohua Xishi）
+# English
 
-日记写了很多，却很少回看？
+Rediscover past journals in Obsidian. Random review, on-this-day review, navigation history and saving reflections remain free. Reflections link to the original journal and can inherit the core Daily Notes folder, date format and template.
 
-朝花夕拾是一个 Obsidian 日记回顾插件：随机翻开过去的某一天，看看往年的今天，把新的感想保存到今天的日记。
+Optional lifetime membership unlocks **My Journal Books**: monthly books, a yearly shelf, custom covers, reading navigation, configurable title sources and font sizes. The early-bird price is CNY 19.9, including future feature updates and support. Contact the author through plugin settings, send the device request code and paste the returned signed license to activate offline.
 
-作者：**Tangerine.Cat** · 源码公开 · 禁止售卖及付费集成 · 最低 Obsidian 版本：1.7.2
+Download `main.js`, `manifest.json` and `styles.css` from the release above. Copy them to `.obsidian/plugins/zhaohua-xishi/`, reload Obsidian and configure the journal folder and date format. Keep `data.json` when upgrading. Click the ribbon icon, select Random review or On this day, then save reflections to today's daily note.
 
-## 功能
+No telemetry, AI integration or plugin-initiated network requests. Obsidian may load remote images and embeds. Activation is stored in local application storage, not the vault. Clearing app storage or changing devices may require a replacement license.
 
-- **随机回顾**：指定日记文件夹，支持年份子目录和 Moment 日期格式；优先未回顾日记，其余按距上次回顾的时长加权。
-- **避免重复**：冷却期可配置，默认 7 天；候选耗尽时可手动忽略一次冷却。
-- **往年今日**：严格匹配同月同日，通过“下一年”切换年份；2 月 29 日不映射到其他日期。
-- **上一篇**：返回刚看过的日记，保存最近 100 条浏览记录，重新打开或重载插件后恢复。
-- **阅读正文与图片**：使用 Obsidian 原生 Markdown 渲染，可打开原文，适配主题及窄屏。
-- **今天的感想**：自动保存草稿，切换日记后可继续；保存时追加到今天日记的“朝花夕拾”小节，并链接原文。
-- **日记模板**：默认沿用“日记”核心插件的目录、日期格式和模板，也可单独指定。
-- **本地使用**：不需要 AI 模型、没有遥测或插件主动网络请求。
-
-## 下载与安装
-
-当前提供 **0.1.3**，尚未上架 Obsidian 官方第三方插件市场。
-
-1. 打开 [0.1.3 下载页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.1.3)。
-2. 下载 Assets 中的 main.js、manifest.json、styles.css 和 LICENSE。
-3. 在你的库中创建 `.obsidian/plugins/zhaohua-xishi/`，将这四个文件放入其中。若修改过库配置目录，请使用自己的配置目录。
-4. 重新加载 Obsidian，在“设置 → 第三方插件”中启用“Zhaohua Xishi”。
-5. 在插件设置中指定要回顾的日记文件夹及日期格式。
-
-升级时替换以上四个文件，保留自己的 data.json。请不要将个人 data.json 上传到本仓库。
-
-## 使用与设置
-
-点击侧栏翻书图标，或运行“朝花夕拾：随机回顾／往年今日”命令。仅回顾早于今天、日期有效的日记。
-
-例如日记位于 `Diary/2024/2024-01-17.md`，可以设置：
-
-| 设置 | 示例 |
-| --- | --- |
-| 日记文件夹 | Diary |
-| 包含子文件夹 | 开启 |
-| 日记日期格式 | YYYY-MM-DD |
-| 冷却期 | 7 天 |
-| 感想小节名称 | 朝花夕拾 |
-
-日期格式包含斜杠时按日记目录下的相对路径匹配，否则按文件名匹配。使用 Moment 格式，文字常量使用方括号，例如 `YYYY-MM-DD[日记]`。
-
-### 感想与链接
-
-保存后追加以下内容，不修改原日记：
-
-```markdown
-## 朝花夕拾
-
-回顾 [[2024-01-17]]
-
-今天的感想。
-```
-
-“回顾”是普通正文，不是标题。链接遵循库的 Wiki/Markdown 链接设置，并处理重名路径；在原日记的反向链接中可找到今天的记录。
-
-### 日记模板
-
-默认在保存时读取 Obsidian“日记”核心插件的目录、日期格式及模板。若核心插件尚无配置，采用默认值：库根目录、YYYY-MM-DD、无模板。
-
-在“设置 → 朝花夕拾 → 日记模板”中切换为“单独指定”，可设置独立目录、日期格式及模板文件。自定义模板留空即不使用模板；日期格式不含 .md，可包含年份子目录。
-
-仅在今日日记不存在时应用模板，已有日记只追加感想。支持核心模板的 {{title}}、{{date}}、{{time}} 及自定义日期时间格式。模板不存在或读取失败会提示并保留草稿。
-
-暂不执行 Templater 动态脚本。使用此类模板时，请先通过 Templater 创建今日日记，再保存感想。
-
-## 隐私
-
-日记和感想不发送给服务器。设置、草稿和浏览历史保存在本库的插件 data.json 中，备份和同步时请同样保护它。
-
-日记中原有的远程图片或嵌入内容仍遵循 Obsidian 的渲染行为。详见 [隐私说明](PRIVACY.md)。
-
-## 界面预览
-
-以下为使用虚构日记制作的早期界面示意，部分细节可能与当前版本不同，不是个人日记截图。
-
-![阅读界面](docs/images/reading-light.png)
-
-## 开发与验证
-
-使用 Node.js 22 或更高版本：
-
-```sh
-npm ci
-npm run release:check
-```
-
-检查包括 ESLint、20 项自动测试、TypeScript、构建及发布文件白名单校验。构建产物位于 dist/zhaohua-xishi，仅含 main.js、manifest.json、styles.css 和 LICENSE，不包含用户设置或日记。
-
-部分功能已在 Obsidian 1.14.5 桌面和移动模拟环境中验收；模板支持已通过自动测试。手机真机、最低版本 1.7.2 和完整进程冷启动尚未实测。
-
-GitHub Actions 在 main 分支推送、PR 或手动触发时运行检查。
-
-## 反馈
-
-请通过 [Issues](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues) 反馈问题，说明 Obsidian 和插件版本、复现步骤。示例请使用虚构日记，截图请先隐藏私人内容。
-
-## 使用许可
-
-本项目采用自定义的[朝花夕拾源码使用许可](LICENSE)，不再标注为 MIT 或标准开源软件。
-
-- 允许个人使用、工作中自用、企业内部使用、修改及免费分享。
-- 禁止售卖插件、付费打包，以及集成到对外收费的产品或服务中获利；另行取得作者书面授权的除外。
-- 分享或修改时须保留许可和版权声明。
-
-具体范围以 LICENSE 全文为准。
+Windows desktop has been validated. Physical mobile devices and the declared minimum version have not been tested. Current source is private and available for official review. Public historical source does not represent this release. See LICENSE and PRIVACY.md.

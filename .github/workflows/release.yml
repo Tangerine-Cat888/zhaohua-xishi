@@ -1,8 +1,7 @@
-name: Validate and prepare release
+name: Validate public release metadata
 on:
   push:
     branches: [main]
-  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
@@ -14,10 +13,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-      - run: npm ci
-      - run: npm run release:check
-      - uses: actions/upload-artifact@v4
-        with:
-          name: zhaohua-xishi
-          path: dist/zhaohua-xishi/
+      - name: Validate public metadata
+        run: |
+          node -e "const fs=require('fs'); const m=JSON.parse(fs.readFileSync('manifest.json')); const v=JSON.parse(fs.readFileSync('versions.json')); if(m.id!=='zhaohua-xishi'||v[m.version]!==m.minAppVersion)throw Error('Invalid release metadata'); console.log('Release metadata validated. Production source builds run in the private source repository.');"

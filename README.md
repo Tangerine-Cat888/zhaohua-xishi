@@ -2,7 +2,7 @@
 
 日记写了很多，却很少回看？随机翻开过去的日记，回顾往年今日，把今天的感想保存到今日日记。
 
-作者：Tangerine.Cat · 当前版本：0.2.0
+作者：Tangerine.Cat · 当前版本：0.2.1
 
 ## 免费功能
 
@@ -10,7 +10,7 @@
 
 ## 永久会员（可选付费）
 
-早鸟买断价 **¥19.9**。包含“我的日记本”、后续新功能更新，以及售后支持与问题反馈。
+早鸟买断价 **¥9.9**。包含“我的日记本”、后续新功能更新，以及售后支持与问题反馈。
 
 “我的日记本”提供按月整理日记、年度书架、自定义封面、阅读目录、标题来源和字号设置。目前不提供导出。
 
@@ -20,7 +20,7 @@
 
 ## 安装与升级
 
-1. 从 [0.2.0 发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.2.0) 下载 `main.js`、`manifest.json`、`styles.css`。
+1. 从 [0.2.1 发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.2.1) 下载 `main.js`、`manifest.json`、`styles.css`。
 2. 放入笔记库 `.obsidian/plugins/zhaohua-xishi/`，重新加载插件。升级时保留已有 `data.json`。
 3. 配置日记文件夹、日期格式，从侧栏入口打开插件。比如 `Diary/2024/2024-01-17.md`，目录设为 `Diary`，日期格式为 `YYYY-MM-DD`，开启子文件夹。
 
@@ -34,7 +34,7 @@
 
 ## 仓库与许可
 
-公开仓库提供安装包、版本信息和 [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)。新版源码在私有仓库维护并提供给 Obsidian 审核。公开仓库保留的旧版源码和历史不代表 0.2.0 的实现。
+公开仓库提供安装包、版本信息和 [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)。新版源码在私有仓库维护并提供给 Obsidian 审核。公开仓库保留的旧版源码和历史不代表 0.2.1 的实现。
 
 使用与分享须遵循 [LICENSE](LICENSE)。未经作者另行授权，不得转售或付费打包。既有版本已授予的权利不因本次发布被追溯改变。
 
@@ -44,7 +44,7 @@
 
 Rediscover past journals in Obsidian. Random review, on-this-day review, navigation history and saving reflections remain free. Reflections link to the original journal and can inherit the core Daily Notes folder, date format and template.
 
-Optional lifetime membership unlocks **My Journal Books**: monthly books, a yearly shelf, custom covers, reading navigation, configurable title sources and font sizes. The early-bird price is CNY 19.9, including future feature updates and support. Contact the author through plugin settings, send the device request code and paste the returned signed license to activate offline.
+Optional lifetime membership unlocks **My Journal Books**: monthly books, a yearly shelf, custom covers, reading navigation, configurable title sources and font sizes. The early-bird price is CNY 9.9, including future feature updates and support. Contact the author through plugin settings, send the device request code and paste the returned signed license to activate offline.
 
 Download `main.js`, `manifest.json` and `styles.css` from the release above. Copy them to `.obsidian/plugins/zhaohua-xishi/`, reload Obsidian and configure the journal folder and date format. Keep `data.json` when upgrading. Click the ribbon icon, select Random review or On this day, then save reflections to today's daily note.
 

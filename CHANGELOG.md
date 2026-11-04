@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.2 — 2026-11-04
+
+- Optimize all 35 bundled covers to WebP, reducing main.js to about 3.33 MB.
+- Keep existing cover identifiers and credits; add a 4.5 MB build size guard.
+- Preserve the custom software license and individual artwork licenses.
+
 ## 0.3.1 — 2026-11-04
 
 - Add 35 bundled offline cover images with artwork credits and source links.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — 2026-11-04
+
+- Add synchronized review collections, folder-based books and selectable title sources.
+- Improve cover and directory layout; group native settings with correct rendering on Obsidian 1.13+.
+- Preserve free features, existing licenses and stored configuration.
+
+
 ## 0.1.3 — 2026-10-31
 
 - Add English installation, usage, privacy, licensing and compatibility documentation for directory review.

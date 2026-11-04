@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1 — 2026-11-04
+
+- Add 35 bundled offline cover images with artwork credits and source links.
+- Preserve vault image selection, uploads and existing cover preferences.
+- Keep cover editor actions outside scrolling content to prevent gallery overlap.
+
 ## 0.3.0 — 2026-11-04
 
 - Add synchronized review collections, folder-based books and selectable title sources.

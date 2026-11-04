@@ -2,7 +2,7 @@
 
 日记写了很多，却很少回看？随机翻开过去的日记，回顾往年今日，把今天的感想保存到今日日记。
 
-作者：Tangerine.Cat · 当前版本：0.3.0
+作者：Tangerine.Cat · 当前版本：0.3.1
 
 ## 免费功能
 
@@ -12,7 +12,7 @@
 
 早鸟买断价 **¥9.9**。包含“我的书架”、后续新功能更新，以及售后支持与问题反馈。
 
-“我的书架”支持按月份或按子文件夹成书，可自定义封面、阅读目录、标题来源和字号。目前不提供导出。
+“我的书架”支持按月份或按子文件夹成书，可自定义封面、阅读目录、标题来源和字号。新增 35 张内置离线封面，可在封面编辑器中直接选用；保留上传及笔记库选图。图片来源与许可见 [图片说明](docs/COVER-CREDITS.md)。目前不提供导出。
 
 在插件设置查看会员信息，添加作者微信 **qian_yu_sui** 购买。复制本机申请码发给作者，收到授权码后在同一页面激活。
 
@@ -20,7 +20,7 @@
 
 ## 安装与升级
 
-1. 从 [0.3.0 发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.3.0) 下载 `main.js`、`manifest.json`、`styles.css`。
+1. 从 [0.3.1 发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.3.1) 下载 `main.js`、`manifest.json`、`styles.css`。
 2. 放入笔记库 `.obsidian/plugins/zhaohua-xishi/`，重新加载插件。升级时保留已有 `data.json`。
 3. 配置日记文件夹、日期格式，从侧栏入口打开插件。比如 `Diary/2024/2024-01-17.md`，目录设为 `Diary`，日期格式为 `YYYY-MM-DD`，开启子文件夹。
 
@@ -34,7 +34,7 @@
 
 ## 仓库与许可
 
-公开仓库提供安装包、版本信息和 [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)。新版源码在私有仓库维护并提供给 Obsidian 审核。公开仓库保留的旧版源码和历史不代表 0.3.0 的实现。
+公开仓库提供安装包、版本信息和 [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)。新版源码在私有仓库维护并提供给 Obsidian 审核。公开仓库保留的旧版源码和历史不代表 0.3.1 的实现。
 
 使用与分享须遵循 [LICENSE](LICENSE)。未经作者另行授权，不得转售或付费打包。既有版本已授予的权利不因本次发布被追溯改变。
 

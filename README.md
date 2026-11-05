@@ -1,64 +1,120 @@
 # 朝花夕拾 · Zhaohua Xishi
 
-日记写了很多，却很少回看？随机翻开过去的日记，回顾往年今日，把今天的感想保存到今日日记。
+随机回顾日记和笔记，查看往年今日，把感想写入今天的日记。
 
-作者：Tangerine.Cat · 当前版本：0.3.4
+[English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 
-## 免费功能
+## 回顾日记和笔记
 
-随机回顾、往年今日、回顾历史导航及保存感想永久免费。支持正文与图片阅读、打开原文，保存感想时附原日记链接，可沿用核心日记插件的目录、日期格式和模板。
+- **随机回顾**：从选定的文件夹中随机打开一篇旧日记或笔记，可以阅读正文、查看图片，也可以打开原文。
+- **往年今日**：查看过去几年同一天写下的内容。
+- **保存感想**：边看边写下现在的想法，保存到今天的日记，并附上原文链接。
+- **回顾记录**：返回刚刚读过的内容，接着看。
 
-## 永久会员（可选付费）
+这些功能永久免费。
 
-早鸟买断价 **¥9.9**。包含“我的书架”、后续新功能更新，以及售后支持与问题反馈。
+除了日记，也可以在设置的“管理回顾集”中添加读书笔记、工作日志等文件夹，切换要回顾的内容。没有日期的笔记也能随机回顾；往年今日需要能识别日期的笔记。所有感想统一保存到今天的日记。
 
-“我的书架”支持按月份或按子文件夹成书，可自定义封面、阅读目录、标题来源和字号。新增 35 张内置离线封面，可在封面编辑器中直接选用；保留上传及笔记库选图。图片来源与许可见 [图片说明](docs/COVER-CREDITS.md)。目前不提供导出。
+## 把笔记放上书架
 
-在插件设置查看会员信息，添加作者微信 **qian_yu_sui** 购买。复制本机申请码发给作者，收到授权码后在同一页面激活。
+“我的书架”是可选的付费功能，可以把日记按月份分成一本本日记本，也可以把不同子文件夹里的笔记分别作为一本书阅读。
 
-授权绑定本机 Obsidian 应用凭据，不写入笔记库，也不随笔记同步。清空应用数据、换机或部分重装操作可能需要重新签发。完整应用环境克隆或修改程序不在离线授权的保护范围内。
+- 从目录选择篇目，调整阅读字号。
+- 设置书名，以及目录中显示的笔记标题。
+- 从内置的 35 张图片中选择封面，或使用自己的图片。
+- 直接拖动封面图片，调整显示位置。
 
-## 安装与升级
+## 开始使用
 
-1. 从 [0.3.4 发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/tag/0.3.4) 下载 `main.js`、`manifest.json`、`styles.css`。
-2. 放入笔记库 `.obsidian/plugins/zhaohua-xishi/`，重新加载插件。升级时保留已有 `data.json`。
-3. 配置日记文件夹、日期格式，从侧栏入口打开插件。比如 `Diary/2024/2024-01-17.md`，目录设为 `Diary`，日期格式为 `YYYY-MM-DD`，开启子文件夹。
+1. 在 Obsidian 的 **设置 → 第三方插件 → 浏览** 中搜索 **Zhaohua Xishi**，安装并启用。
+2. 打开插件设置，指定日记文件夹和文件名的日期格式。也可以沿用 Obsidian 核心日记插件的目录、日期格式和模板。
+3. 点击侧栏中的插件入口，选择“随机回顾”或“往年今日”。
 
-社区目录上架与审核状态以 Obsidian 页面为准，GitHub 发布不代表审核已通过。
+例如，日记路径是 `Diary/2024/2024-01-17.md`，将文件夹设为 `Diary`、日期格式设为 `YYYY-MM-DD`，并开启包含子文件夹。
 
-## 隐私与兼容性
+要回顾其他文件夹，在“管理回顾集”中添加即可。日期识别、标题来源和成书方式的详细设置见 [回顾集说明](docs/REVIEW-SETS.md)。
 
-不上传日记，不调用 AI，无遥测或插件主动网络请求。远程图片和嵌入可能由 Obsidian 原生渲染器联网加载。见 [PRIVACY.md](PRIVACY.md)。
+## 价格与激活
 
-已进行 Windows 桌面验收。手机真机和声明的最低 Obsidian 1.7.2 版本尚未完成实测。反馈时请勿提交私人日记或授权码。
+随机回顾、往年今日、回顾记录、保存感想和回顾集管理永久免费。
 
-## 仓库与许可
+**永久会员早鸟买断价 ¥9.9**，包含书架阅读、后续新功能更新及售后支持。
 
-公开仓库提供安装包、版本信息和 [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)。新版源码在私有仓库维护并提供给 Obsidian 审核。公开仓库保留的旧版源码和历史不代表 0.3.4 的实现。
+购买方式：在插件设置中找到“授权与支持”，添加作者微信 **qian_yu_sui**，发送本机申请码。收到授权码后，回到同一页面粘贴激活。
 
-使用与分享须遵循 [LICENSE](LICENSE)。未经作者另行授权，不得转售或付费打包。既有版本已授予的权利不因本次发布被追溯改变。
+授权保存在本机，不随笔记库同步。换机、清空应用数据或部分重装操作后，可能需要联系作者重新签发。
+
+## 常见问题
+
+### 日记会上传吗？
+
+插件在本地读取笔记，不上传日记，不调用 AI，也不收集使用数据。笔记中已有的远程图片或嵌入内容，仍可能由 Obsidian 联网加载。详见 [隐私说明](PRIVACY.md)。
+
+### 支持哪些设备？
+
+目前已在 Windows 桌面端测试。手机端和声明的最低 Obsidian 1.7.2 版本尚未完成实测。
+
+### 如何手动安装或升级？
+
+从 [最新发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/latest) 下载 `main.js`、`manifest.json` 和 `styles.css`，放入笔记库的 `.obsidian/plugins/zhaohua-xishi/` 文件夹，再重新加载插件。升级时保留已有的 `data.json`。
+
+### 遇到问题在哪里反馈？
+
+可以在 GitHub [提交问题](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)，附上 Obsidian 版本、插件版本和复现步骤。截图请遮住私人日记内容，不要附上授权码。
+
+## 作者与许可
+
+作者：Tangerine.Cat。
+
+公开仓库提供安装包与使用说明；当前版本源码在私有仓库维护，并提供给 Obsidian 审核。公开仓库保留的旧版源码不代表当前版本的实现。
+
+使用与分享请遵循 [LICENSE](LICENSE)，未经作者授权不得转售或付费打包；既有版本已授予的权利不受后续许可变更的追溯影响。封面图片的来源与许可见 [图库说明](assets/covers/README.md)。
 
 ---
 
-# English
+## English
 
-Rediscover past journals in Obsidian. Random review, on-this-day review, navigation history and saving reflections remain free. Reflections link to the original journal and can inherit the core Daily Notes folder, date format and template.
+Browse random journal entries and notes, revisit this day in past years, and add comments to today's daily note.
 
-Optional lifetime membership unlocks **My Journal Books**: monthly books, a yearly shelf, custom covers, reading navigation, configurable title sources and font sizes. The early-bird price is CNY 9.9, including future feature updates and support. Contact the author through plugin settings, send the device request code and paste the returned signed license to activate offline.
+### Review your notes
 
-Download `main.js`, `manifest.json` and `styles.css` from the release above. Copy them to `.obsidian/plugins/zhaohua-xishi/`, reload Obsidian and configure the journal folder and date format. Keep `data.json` when upgrading. Click the ribbon icon, select Random review or On this day, then save reflections to today's daily note.
+- **Random review**: Open a random past entry or note from a selected folder. Read its text and images, or open the original file.
+- **On this day**: Read entries from the same date in previous years.
+- **Save comments**: Write a comment while reading and save it to today's daily note, with a link to the original.
+- **Review history**: Go back to entries you have just read.
 
-No telemetry, AI integration or plugin-initiated network requests. Obsidian may load remote images and embeds. Activation is stored in local application storage, not the vault. Clearing app storage or changing devices may require a replacement license.
+These features are free. You can also add separate review sets for reading notes, work logs, or other folders. Undated notes support random review; on-this-day review requires a valid date. Comments from all sets go to today's daily note.
 
-Windows desktop has been validated. Physical mobile devices and the declared minimum version have not been tested. Current source is private and available for official review. Public historical source does not represent this release. See LICENSE and PRIVACY.md.
+### Read notes as books
 
+The optional paid bookshelf groups entries into books by month or subfolder. Choose an entry from the table of contents, adjust the font size, and customize book titles and covers. Choose from 35 bundled cover images or use your own, then drag the image to adjust its position.
 
-## 回顾集
+Books are for reading inside Obsidian. Ebook and PDF export are not supported.
 
-在设置中通过“管理回顾集”添加读书笔记、工作日志等文件夹。随机回顾、往年今日和书架同步使用当前回顾集；无日期的内容也可以随机回顾。每个回顾集可指定标题来自 title 属性、正文第一个标题或文件名。
+### Get started
 
-默认“日记”沿用已有配置，选中后书架标题显示“我的日记本”。感想仍统一写入今天的日记。回顾集管理与随机回顾免费，成书阅读属于永久会员功能。
+1. Search for **Zhaohua Xishi** in Obsidian's community plugins, then install and enable it.
+2. Set your journal folder and filename date format. You can reuse the core Daily Notes folder, date format, and template.
+3. Open the plugin from the ribbon and choose random review or on-this-day review.
 
-设置按“回顾内容、我的日记本、感想保存、授权与支持”分组，保留 Obsidian 原生控件。“日记模板”名称与原保存方式不变。
+For a file such as `Diary/2024/2024-01-17.md`, set the folder to `Diary`, use `YYYY-MM-DD`, and include subfolders. Add other folders through the review-set manager in settings.
 
-详细规则见 [回顾集说明](docs/REVIEW-SETS.md)。
+For manual installation, download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/latest). Place them in `.obsidian/plugins/zhaohua-xishi/` and reload the plugin. Keep your existing `data.json` when upgrading.
+
+### Pricing
+
+Random review, on-this-day review, review history, comments, and review-set management are permanently free.
+
+Optional lifetime membership costs **CNY 9.9 at the early-bird price** and includes bookshelf reading, future feature updates, and support. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
+
+Activation is stored on the device and does not sync with your vault. Changing devices, clearing application data, or some reinstallations may require a replacement license.
+
+### Privacy, compatibility, and support
+
+The plugin reads notes locally. It does not upload journals, use AI, or collect usage data. Obsidian may still load remote images and embeds in your notes. See the [privacy policy](PRIVACY.md).
+
+Tested on Windows desktop. Physical mobile devices and the declared minimum Obsidian version, 1.7.2, have not yet been tested.
+
+[Report an issue](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues) with your Obsidian version, plugin version, and steps to reproduce the problem. Do not include private journal content or license codes.
+
+The public repository provides releases and documentation. Current source is private and available to Obsidian for review; historical public source does not represent the current release. See [LICENSE](LICENSE) for terms and [cover credits](assets/covers/README.md) for image sources and licenses.

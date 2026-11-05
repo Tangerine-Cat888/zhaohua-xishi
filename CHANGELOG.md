@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.4 — 2026-11-05
+
+- Restore eslint-import-resolver-node 0.3.10 in the dependency lockfile to fix clean source review installations.
+- Use structured version updates and verify installed dependency versions against the lockfile.
+- Validate releases with a fresh npm cache. No plugin behavior changes.
+
 ## 0.3.3 — 2026-11-05
 
 - Fix repeating dropdown arrows in dark mode.

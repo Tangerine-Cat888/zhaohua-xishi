@@ -6,6 +6,8 @@
 
 ## 回顾日记和笔记
 
+![随机回顾：阅读旧日记，并把现在的感想保存到今天](docs/images/random-review.png)
+
 - **随机回顾**：从选定的文件夹中随机打开一篇旧日记或笔记，可以阅读正文、查看图片，也可以打开原文。
 - **往年今日**：查看过去几年同一天写下的内容。
 - **保存感想**：边看边写下现在的想法，保存到今天的日记，并附上原文链接。
@@ -19,12 +21,21 @@
 
 “我的书架”是可选的付费功能，可以把日记按月份分成一本本日记本，也可以把不同子文件夹里的笔记分别作为一本书阅读。
 
+![示例书架：经典文字、摄影题签、留白画册、满版影像四种封面](docs/images/bookshelf-styles.png)
+
+从左到右是经典文字、摄影题签、留白画册、满版影像。同一张书架上可以使用不同的封面样式。
+
 - 从目录选择篇目，调整阅读字号。
 - 设置书名，以及目录中显示的笔记标题。
 - 从内置的 35 张图片中选择封面，或使用自己的图片。
 - 直接拖动封面图片，调整显示位置。
 
+![内置封面图库：选择图片，预览封面，并拖动调整图片位置](docs/images/cover-gallery.png)
+
+展开“内置图库”，点击图片就能预览封面效果。以上截图使用示例日记。
+
 ## 开始使用
+
 
 1. 在 Obsidian 的 **设置 → 第三方插件 → 浏览** 中搜索 **Zhaohua Xishi**，安装并启用。
 2. 打开插件设置，指定日记文件夹和文件名的日期格式。也可以沿用 Obsidian 核心日记插件的目录、日期格式和模板。
@@ -78,6 +89,8 @@ Browse random journal entries and notes, revisit this day in past years, and add
 
 ### Review your notes
 
+![Random review with a comment field for today's daily note](docs/images/random-review.png)
+
 - **Random review**: Open a random past entry or note from a selected folder. Read its text and images, or open the original file.
 - **On this day**: Read entries from the same date in previous years.
 - **Save comments**: Write a comment while reading and save it to today's daily note, with a link to the original.
@@ -90,6 +103,14 @@ These features are free. You can also add separate review sets for reading notes
 The optional paid bookshelf groups entries into books by month or subfolder. Choose an entry from the table of contents, adjust the font size, and customize book titles and covers. Choose from 35 bundled cover images or use your own, then drag the image to adjust its position.
 
 Books are for reading inside Obsidian. Ebook and PDF export are not supported.
+
+![Four cover layouts on one shelf: text, photo label, framed image, and full image](docs/images/bookshelf-styles.png)
+
+From left to right: text, photo label, framed image, and full image. You can mix layouts on the same shelf.
+
+![Built-in cover gallery with a live cover preview](docs/images/cover-gallery.png)
+
+Choose an image from the built-in gallery, preview it, and drag to adjust its position. Screenshots use sample journal entries.
 
 ### Get started
 

@@ -21,7 +21,7 @@
 
 “我的书架”是可选的付费功能，可以把日记按月份分成一本本日记本，也可以把不同子文件夹里的笔记分别作为一本书阅读。
 
-![示例书架：经典文字、摄影题签、留白画册、满版影像四种封面](docs/images/bookshelf-styles.png)
+![示例书架：经典文字、摄影题签、留白画册、满版影像四种封面](docs/images/bookshelf-styles-v2.png)
 
 从左到右是经典文字、摄影题签、留白画册、满版影像。同一张书架上可以使用不同的封面样式。
 
@@ -30,7 +30,7 @@
 - 从内置的 35 张图片中选择封面，或使用自己的图片。
 - 直接拖动封面图片，调整显示位置。
 
-![内置封面图库：选择图片，预览封面，并拖动调整图片位置](docs/images/cover-gallery.png)
+![内置封面图库：选择图片，预览封面，并拖动调整图片位置](docs/images/cover-gallery-v2.png)
 
 展开“内置图库”，点击图片就能预览封面效果。以上截图使用示例日记。
 
@@ -104,11 +104,11 @@ The optional paid bookshelf groups entries into books by month or subfolder. Cho
 
 Books are for reading inside Obsidian. Ebook and PDF export are not supported.
 
-![Four cover layouts on one shelf: text, photo label, framed image, and full image](docs/images/bookshelf-styles.png)
+![Four cover layouts on one shelf: text, photo label, framed image, and full image](docs/images/bookshelf-styles-v2.png)
 
 From left to right: text, photo label, framed image, and full image. You can mix layouts on the same shelf.
 
-![Built-in cover gallery with a live cover preview](docs/images/cover-gallery.png)
+![Built-in cover gallery with a live cover preview](docs/images/cover-gallery-v2.png)
 
 Choose an image from the built-in gallery, preview it, and drag to adjust its position. Screenshots use sample journal entries.
 

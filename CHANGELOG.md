@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.3 — 2026-11-05
+
+- Fix repeating dropdown arrows in dark mode.
+- Preserve directory scroll position and keyboard focus when switching entries.
+- Replace cover position sliders with direct dragging, keyboard adjustments and a center reset button.
+
 ## 0.3.2 — 2026-11-04
 
 - Optimize all 35 bundled covers to WebP, reducing main.js to about 3.33 MB.

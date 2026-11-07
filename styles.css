@@ -390,7 +390,7 @@
 /* Export window inherits the reader/editor chrome; the document lives in an isolated frame. */
 .modal.zh-export-modal{--zh-ui-accent:#6d667f;--zh-ui-accent-text:var(--zh-ui-accent);width:min(1320px,calc(100vw - 48px));max-width:1320px;height:calc(100dvh - 64px);max-height:900px;padding:0;border-radius:15px;overflow:hidden;border:1px solid var(--background-modifier-border);background:var(--background-primary);box-shadow:0 24px 70px #0003}
 .theme-dark .modal.zh-export-modal{--zh-ui-accent-text:color-mix(in srgb,var(--zh-ui-accent) 48%,var(--text-normal))}
-.zh-export-modal .modal-header{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);padding:0;margin:0}
+.zh-export-modal .modal-header{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);padding:0;margin:0}
 .zh-export-modal .modal-content{height:100%;margin:0;padding:0;overflow:hidden}
 .modal.zh-export-modal .zh-export-close{position:absolute;top:16px;inset-inline-end:13px;z-index:2;width:32px;height:32px;margin:0;padding:8px;border-radius:6px;color:var(--text-muted)}
 .zh-export-modal .zh-export-close:hover{color:var(--text-normal);background:var(--background-modifier-hover)}

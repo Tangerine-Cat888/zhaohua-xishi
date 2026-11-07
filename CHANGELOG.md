@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.1 — 2026-11-07
+
+- Sanitize export markup into DOM fragments and load imported fonts with the FontFace API, removing unsafe HTML assignments and runtime style elements.
+- Preserve imported fonts in exported PNGs through validated, membership-checked local font reads.
+- Fix export message typing, cross-window element checks, timers, and CSS compatibility warnings while preserving layout and pagination.
+- Include the entire export studio in zero-warning lint, type checking, and the release test suite.
+- Keep existing membership, trial start times, early-bird dates, saved styles, and downloaded static resources unchanged.
+
 ## 0.4.0 — 2026-11-07
 
 - Offer an explicitly started 72-hour full membership trial. Expiry preserves notes, exported images, photos, and saved styles; free review stays available.

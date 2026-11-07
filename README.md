@@ -2,7 +2,7 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。也可以把笔记放上书架，或排成图片保存下来。
 
-**0.4.2：把调好的排版、配图和裁切存成模板，下次直接选用。**
+**0.4.3：把调好的排版、配图和裁切存成模板，下次直接选用。**
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 
@@ -143,7 +143,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.4.2 lets you save a layout, photo, and crop as a reusable template.**
+**Version 0.4.3 lets you save a layout, photo, and crop as a reusable template.**
 
 ### Review your notes
 

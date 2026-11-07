@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.2 — 2026-11-08
+
+- Unify built-in layouts and saved styles into one template picker. Save layouts with photos and crop positions without copying note content.
+- Add template management for copying, editing, reordering, removing, restoring, and confirmed permanent deletion. Preserve existing styles and temporary export adjustments.
+- Refine gallery browsing, paper-and-ink choices, dropdowns, and footer-cat controls; fix bundled artwork IDs and cat preview images.
+- Use window-specific documents and cross-window element checks for export, review, and bookshelf interactions.
+- Update development lint and Obsidian API dependencies and patch the development-only minimatch dependency; preserve membership and early-bird dates.
+
 ## 0.4.1 — 2026-11-07
 
 - Sanitize export markup into DOM fragments and load imported fonts with the FontFace API, removing unsafe HTML assignments and runtime style elements.

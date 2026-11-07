@@ -2,7 +2,7 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。也可以把笔记放上书架，或排成图片保存下来。
 
-**0.4.0 新增图片导出、样式管理和回顾筛选，支持 72 小时完整会员体验。**
+**0.4.2：把调好的排版、配图和裁切存成模板，下次直接选用。**
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 
@@ -58,13 +58,19 @@
 - 调整字体、字号、行距、纸色和文字颜色，选择是否显示标题、日期和署名。
 - 使用内置图片或添加自己的照片，拖动、缩放调整照片位置。
 - 选择 3:4、1:1、9:16 画幅，导出分页图片或连续长图；保存当前页 PNG，或将全部页面打包成 ZIP。
-- 把调好的排版存入“我的样式”，为每款模板选一个默认样式。常用字体和配色也能自己整理；支持从文件添加字体，在支持的桌面环境中选择电脑已安装的字体。
+- 调好以后，点击样式栏右上角的三点菜单，选择 **另存为模板**。下次在模板列表里选中它，就能用回同一套字体、纸色、配图和裁切；正文仍来自当前笔记。
+- 在设置的 **模板管理** 中复制新建、编辑、排序、移除和恢复模板。旧“我的样式”会保留并加入列表；重新打开导出窗口时，沿用上次的排版和临时调整。
+- 常用字体和配色也能自己整理；支持从文件添加字体，在支持的桌面环境中选择电脑已安装的字体。
 
 在回顾页或书架阅读页点击 **导出图片**；也可以在编辑器中选中文字后右键导出，或运行 **导出当前笔记为图片** 命令。导出窗口里改动的文字不会写回原笔记。
 
-![图片导出窗口：左侧编辑文字，中间预览，右侧选择模板和样式，顶部保存 PNG](docs/images/image-export-studio.png)
+![图片导出窗口：选择自己保存的模板，再调整文字与配图](docs/images/image-export-studio-v042.png)
 
 左侧改文字，中间看效果，右侧调整模板和样式。排好后，点击右上角保存图片。截图使用演示文字。
+
+![模板管理：内置和自建模板一起编辑、排序、移除与恢复](docs/images/template-manager-v042.png)
+
+移除的模板可以恢复；“彻底删除”需要再次确认，操作后不能从列表恢复。导入的照片和字体会保留。
 
 首次导出需主动下载字体和图库，之后无需联网。图片默认保存在当前笔记的附件文件夹，也可以指定库内目录和命名方式。同名文件会自动编号，保留已有图片。排版与图片生成都在本机完成。
 
@@ -137,7 +143,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.4.0 adds image export, saved styles, review filters, and an optional 72-hour full membership trial.**
+**Version 0.4.2 lets you save a layout, photo, and crop as a reusable template.**
 
 ### Review your notes
 
@@ -174,13 +180,19 @@ Image export is included in lifetime membership and the optional 72-hour full tr
 
 The same sample passage in four layouts, shown side by side using the plugin's actual previews and bundled fonts and photos.
 
-Adjust fonts, spacing, paper and text colors, and title, date, and author visibility. Use bundled images or your own photos, then drag and zoom to frame them. Save reusable styles, choose a default for each template, and organize favorite fonts and colors. Font files can be imported; installed computer fonts can be selected on supported desktops.
+Adjust fonts, spacing, paper and text colors, and title, date, and author visibility. Use bundled images or your own photos, then drag and zoom to frame them. Choose **另存为模板** from the three-dot menu to save the layout, photo, and crop without the note text or author. Select it from the same list as built-in templates next time.
+
+Use **模板管理** in settings to copy, edit, reorder, remove, or restore templates. Existing saved styles are retained. Reopening the export window keeps your last layout and temporary adjustments. Organize favorite fonts and colors, import font files, or select installed computer fonts on supported desktops.
 
 Choose a 3:4, 1:1, or 9:16 format, with separate pages or one long image. Save the current page as PNG or all pages as a ZIP. Open **导出图片** from a review or book reader, use the editor context menu, or run **导出当前笔记为图片**. Text edits in the export window do not change the original note.
 
-![Image export window with text editing, live preview, template controls, and a Save PNG button](docs/images/image-export-studio.png)
+![Image export window using a saved template, with text editing and live preview](docs/images/image-export-studio-v042.png)
 
 Edit text on the left, preview it in the center, and adjust templates and styles on the right. Save the image from the top-right button. This screenshot uses sample text.
+
+![Manage built-in and custom templates in one list](docs/images/template-manager-v042.png)
+
+Removed templates can be restored. Permanent deletion requires confirmation and cannot be undone from the list; imported photos and fonts are retained.
 
 Images are generated locally and saved to the note's attachment folder by default. You can choose another vault folder and filename format; existing files are preserved. Common Markdown content, wikilink text, and local images are supported. Formulas, Dataview, whole-note embeds, and other dynamic plugin content are not supported. Missing or remote images need to be resolved before export.
 

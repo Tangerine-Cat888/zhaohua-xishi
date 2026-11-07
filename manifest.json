@@ -1,9 +1,9 @@
 {
   "id": "zhaohua-xishi",
   "name": "Zhaohua Xishi",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "minAppVersion": "1.7.2",
-  "description": "Browse random journal entries and notes, revisit this day in past years, and add comments to today's daily note.",
+  "description": "Revisit journal entries, save reflections to today's note, read notes as books, and export notes or selected passages as images.",
   "author": "Tangerine.Cat",
   "isDesktopOnly": false
 }

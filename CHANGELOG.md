@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.0 — 2026-11-07
+
+- Offer an explicitly started 72-hour full membership trial. Expiry preserves notes, exported images, photos, and saved styles; free review stays available.
+- Include bookshelf reading, all four image export templates, fonts, colors, and saved styles in lifetime membership. Existing full licenses keep all benefits without reactivation or an upgrade fee.
+- Set pricing to CNY 19.9 for 30 days from public release, then CNY 39.9. Early-bird window: 2026-11-07T11:33:19.070Z to 2026-12-07T11:33:19.070Z.
+
+- Export notes or selected passages as images from reviews, book readers, editor and file menus, or a command.
+- Add four export templates: minimal page, handwritten diary, full-photo essay, and photo journal. Support paginated or long PNG images and multi-page ZIP files.
+- Customize export fonts, colors, photos, and layout; save reusable styles and per-template defaults. Import font files or select installed fonts on supported desktops.
+- Configure export author, vault destination, and filename format without overwriting existing files. Export text edits do not change source notes.
+- Add shared reading appearance settings and review filters for folders, tags, and recent notes.
+- Community installs download verified static fonts and images only after a user clicks; executable code ships with the plugin. A complete offline ZIP is also provided.
+
 ## 0.3.4 — 2026-11-05
 
 - Restore eslint-import-resolver-node 0.3.10 in the dependency lockfile to fix clean source review installations.

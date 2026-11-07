@@ -1,6 +1,8 @@
 # 朝花夕拾 · Zhaohua Xishi
 
-随机回顾日记和笔记，查看往年今日，把感想写入今天的日记。
+随机翻看旧日记，重读往年今日，把现在的感想写进今天。也可以把笔记放上书架，或排成图片保存下来。
+
+**0.4.0 新增图片导出、样式管理和回顾筛选，支持 72 小时完整会员体验。**
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 
@@ -34,7 +36,49 @@
 
 展开“内置图库”，点击图片就能预览封面效果。以上截图使用示例日记。
 
+## 把喜欢的文字排成图片
+
+读到想留下的一段日记，或想分享一篇笔记，可以直接排版成图。不必复制到其他软件，也可以只选中其中几句话。
+
+图片导出包含在永久会员中，也可主动开启 72 小时完整体验。四款模板均可使用，无水印、不限导出次数。
+
+![同一段示例文字的四种排版：极简白纸、手写日记、光影随笔、照片手账](docs/images/image-export-templates.png)
+
+同一段示例文字，四种排法。上图将插件实际预览并排展示，照片和字体均来自内置资源。
+
+四款模板各有不同的排法：
+
+| 模板 | 样式 |
+| --- | --- |
+| 极简白纸 | 简洁的纸面，以文字为主 |
+| 手写日记 | 手写字体，搭配横线、方格或点阵纸 |
+| 光影随笔 | 照片铺满画面，文字叠在照片上 |
+| 照片手账 | 照片搭配手写便笺 |
+
+- 调整字体、字号、行距、纸色和文字颜色，选择是否显示标题、日期和署名。
+- 使用内置图片或添加自己的照片，拖动、缩放调整照片位置。
+- 选择 3:4、1:1、9:16 画幅，导出分页图片或连续长图；保存当前页 PNG，或将全部页面打包成 ZIP。
+- 把调好的排版存入“我的样式”，为每款模板选一个默认样式。常用字体和配色也能自己整理；支持从文件添加字体，在支持的桌面环境中选择电脑已安装的字体。
+
+在回顾页或书架阅读页点击 **导出图片**；也可以在编辑器中选中文字后右键导出，或运行 **导出当前笔记为图片** 命令。导出窗口里改动的文字不会写回原笔记。
+
+![图片导出窗口：左侧编辑文字，中间预览，右侧选择模板和样式，顶部保存 PNG](docs/images/image-export-studio.png)
+
+左侧改文字，中间看效果，右侧调整模板和样式。排好后，点击右上角保存图片。截图使用演示文字。
+
+首次导出需主动下载字体和图库，之后无需联网。图片默认保存在当前笔记的附件文件夹，也可以指定库内目录和命名方式。同名文件会自动编号，保留已有图片。排版与图片生成都在本机完成。
+
+支持常见 Markdown 内容、双链文字和库内图片。暂不支持公式、Dataview、整篇笔记嵌入及其他插件动态内容；缺失图片或外链图片会提示，不能直接按原样导出。
+
+## 按自己的习惯阅读
+
+回顾页和书架可以统一设置字体、字号、行距和正文宽度。
+
+不想回顾草稿，或想让刚写完的内容先放一放，可以按文件夹、标签排除笔记，也可以跳过最近几天的内容。筛选同时用于随机回顾和往年今日，不影响书架里的篇目。
+
 ## 开始使用
+
+### 设置回顾来源
 
 
 1. 在 Obsidian 的 **设置 → 第三方插件 → 浏览** 中搜索 **Zhaohua Xishi**，安装并启用。
@@ -47,9 +91,13 @@
 
 ## 价格与激活
 
-随机回顾、往年今日、回顾记录、保存感想和回顾集管理永久免费。
+随机回顾、往年今日、回顾记录、保存感想和回顾集管理永久免费。新版中的回顾筛选也免费。
 
-**永久会员早鸟买断价 ¥9.9**，包含书架阅读、后续新功能更新及售后支持。
+**永久会员：正式发布起 30 天早鸟价 ¥19.9，之后 ¥39.9。** 早鸟时间：北京时间 **2026/11/7 19:33:19 至 2026/12/7 19:33:19**，截止时起恢复原价。包含书架阅读、四款模板完整图片导出、字体与颜色定制、自定义样式、后续本地功能更新及售后支持。已有永久会员直接享有全部权益，无须补差价或重新激活。
+
+未购买用户可在授权页主动开启 **72 小时完整会员体验**，不限导出次数、无水印，不自动扣费。到期恢复免费版，笔记、已导出图片、照片与已保存样式均保留，购买后继续使用。试用期限与早鸟期限独立，价格以购买时为准。
+
+试用记录保存在本机 Obsidian 的应用存储中，不随笔记库同步；正常重启不会重置。离线试用不保证跨设备、清空应用数据或修改系统时间后的严格防重复。
 
 购买方式：在插件设置中找到“授权与支持”，添加作者微信 **qian_yu_sui**，发送本机申请码。收到授权码后，回到同一页面粘贴激活。
 
@@ -69,6 +117,8 @@
 
 从 [最新发布页](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/latest) 下载 `main.js`、`manifest.json` 和 `styles.css`，放入笔记库的 `.obsidian/plugins/zhaohua-xishi/` 文件夹，再重新加载插件。升级时保留已有的 `data.json`。
 
+首次导出时，点击下载约 53 MB 的字体和图库，完成后可离线使用。程序随插件安装，不会从网络下载执行代码。也可下载发布页中的完整 ZIP，将其中 `zhaohua-xishi` 文件夹合并到插件目录。升级时保留 `data.json`、`export-photos/` 和 `export-fonts/`。
+
 ### 遇到问题在哪里反馈？
 
 可以在 GitHub [提交问题](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)，附上 Obsidian 版本、插件版本和复现步骤。截图请遮住私人日记内容，不要附上授权码。
@@ -85,7 +135,9 @@
 
 ## English
 
-Browse random journal entries and notes, revisit this day in past years, and add comments to today's daily note.
+Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
+
+**Version 0.4.0 adds image export, saved styles, review filters, and an optional 72-hour full membership trial.**
 
 ### Review your notes
 
@@ -112,6 +164,30 @@ From left to right: text, photo label, framed image, and full image. You can mix
 
 Choose an image from the built-in gallery, preview it, and drag to adjust its position. Screenshots use sample journal entries.
 
+### Turn notes into images
+
+Export a whole note or a selected passage using four templates: a minimal page, a handwritten diary, text over a full photo, or a photo with a handwritten paper note.
+
+Image export is included in lifetime membership and the optional 72-hour full trial. All four templates are available, with no watermark or export limit.
+
+![Four actual template previews using the same sample passage](docs/images/image-export-templates.png)
+
+The same sample passage in four layouts, shown side by side using the plugin's actual previews and bundled fonts and photos.
+
+Adjust fonts, spacing, paper and text colors, and title, date, and author visibility. Use bundled images or your own photos, then drag and zoom to frame them. Save reusable styles, choose a default for each template, and organize favorite fonts and colors. Font files can be imported; installed computer fonts can be selected on supported desktops.
+
+Choose a 3:4, 1:1, or 9:16 format, with separate pages or one long image. Save the current page as PNG or all pages as a ZIP. Open **导出图片** from a review or book reader, use the editor context menu, or run **导出当前笔记为图片**. Text edits in the export window do not change the original note.
+
+![Image export window with text editing, live preview, template controls, and a Save PNG button](docs/images/image-export-studio.png)
+
+Edit text on the left, preview it in the center, and adjust templates and styles on the right. Save the image from the top-right button. This screenshot uses sample text.
+
+Images are generated locally and saved to the note's attachment folder by default. You can choose another vault folder and filename format; existing files are preserved. Common Markdown content, wikilink text, and local images are supported. Formulas, Dataview, whole-note embeds, and other dynamic plugin content are not supported. Missing or remote images need to be resolved before export.
+
+### Adjust reading and review filters
+
+Set the reading font, size, line spacing, and text width for reviews and books. Exclude folders, tags, or recent notes from random and on-this-day review. These filters do not change bookshelf contents.
+
 ### Get started
 
 1. Search for **Zhaohua Xishi** in Obsidian's community plugins, then install and enable it.
@@ -122,11 +198,13 @@ For a file such as `Diary/2024/2024-01-17.md`, set the folder to `Diary`, use `Y
 
 For manual installation, download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/Tangerine-Cat888/zhaohua-xishi/releases/latest). Place them in `.obsidian/plugins/zhaohua-xishi/` and reload the plugin. Keep your existing `data.json` when upgrading.
 
+On first export, click to download approximately 53 MB of fonts and images from GitHub. They are then available offline. Executable code ships with the plugin, not the download. Alternatively, merge the complete ZIP package into your plugins folder. Preserve `data.json`, `export-photos/`, and `export-fonts/` when upgrading.
+
 ### Pricing
 
 Random review, on-this-day review, review history, comments, and review-set management are permanently free.
 
-Optional lifetime membership costs **CNY 9.9 at the early-bird price** and includes bookshelf reading, future feature updates, and support. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
+Optional lifetime membership costs **CNY 19.9 for 30 days from the public release, then CNY 39.9**. The early-bird window is 2026-11-07T11:33:19.070Z through 2026-12-07T11:33:19.070Z (UTC); the regular price applies at the end instant. Membership includes bookshelf reading, full image export with all four templates, fonts and colors, saved styles, future local feature updates, and support. Existing lifetime members receive all benefits without an upgrade fee or reactivation. Users can explicitly start a **72-hour full trial**, with no watermark, export limit, or automatic charge. After expiry, free review remains available and notes, exported images, photos, and saved styles are retained. Starting a trial does not reserve the early-bird price. Offline trial records stay in local Obsidian application storage and are not synced with the vault. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
 
 Activation is stored on the device and does not sync with your vault. Changing devices, clearing application data, or some reinstallations may require a replacement license.
 

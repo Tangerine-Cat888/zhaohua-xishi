@@ -2,7 +2,7 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。也可以把笔记放上书架，或排成图片保存下来。
 
-**0.4.3：把调好的排版、配图和裁切存成模板，下次直接选用。**
+**0.5.0：在预览里拖动图片、调整文字框，双击文字直接编辑。**
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 
@@ -40,7 +40,7 @@
 
 读到想留下的一段日记，或想分享一篇笔记，可以直接排版成图。不必复制到其他软件，也可以只选中其中几句话。
 
-图片导出包含在永久会员中，也可主动开启 72 小时完整体验。四款模板均可使用，无水印、不限导出次数。
+图片导出包含在永久会员中，也可主动开启完整体验：早鸟期间新开通 72 小时，之后新开通 24 小时。四款模板均可使用，无水印、不限导出次数。
 
 ![同一段示例文字的四种排版：极简白纸、手写日记、光影随笔、照片手账](docs/images/image-export-templates.png)
 
@@ -76,6 +76,16 @@
 
 支持常见 Markdown 内容、双链文字和库内图片。暂不支持公式、Dataview、整篇笔记嵌入及其他插件动态内容；缺失图片或外链图片会提示，不能直接按原样导出。
 
+### 直接在预览里调整
+
+光影随笔中，可以拖动文字框、调整宽度，双击文字修改这一张图的内容。正文图片可以移动、等比缩放、对齐或复位；其他模板中的正文图片也可以调整大小和排列位置。拖动时暂停导出，完成调整后再保存。
+
+![在预览里调整图文：拖动、缩放与对齐](docs/images/inline-layout-v050.png)
+
+截图使用演示内容。
+
+纸感强度可以单独调整，照片上的署名会根据背景明暗选择更清楚的颜色。文字框可以随模板保存；正文图片的临时位置用于当前排版，不写回原笔记。
+
 ## 按自己的习惯阅读
 
 回顾页和书架可以统一设置字体、字号、行距和正文宽度。
@@ -99,9 +109,9 @@
 
 随机回顾、往年今日、回顾记录、保存感想和回顾集管理永久免费。新版中的回顾筛选也免费。
 
-**永久会员：正式发布起 30 天早鸟价 ¥19.9，之后 ¥39.9。** 早鸟时间：北京时间 **2026/11/7 19:33:19 至 2026/12/7 19:33:19**，截止时起恢复原价。包含书架阅读、四款模板完整图片导出、字体与颜色定制、自定义样式、后续本地功能更新及售后支持。已有永久会员直接享有全部权益，无须补差价或重新激活。
+**永久会员：正式发布起 14 天早鸟价 ¥19.9，之后 ¥39.9。** 早鸟时间：北京时间 **2026/11/7 19:33:19 至 2026/11/21 19:33:19**，截止时起恢复原价。包含书架阅读、四款模板完整图片导出、字体与颜色定制、自定义样式、后续本地功能更新及售后支持。已有永久会员直接享有全部权益，无须补差价或重新激活。
 
-未购买用户可在授权页主动开启 **72 小时完整会员体验**，不限导出次数、无水印，不自动扣费。到期恢复免费版，笔记、已导出图片、照片与已保存样式均保留，购买后继续使用。试用期限与早鸟期限独立，价格以购买时为准。
+未购买用户可在授权页主动开启 **完整会员体验：早鸟期间新开通 72 小时，早鸟结束后新开通 24 小时**，不限导出次数、无水印，不自动扣费。到期恢复免费版，笔记、已导出图片、照片与已保存样式均保留，购买后继续使用。已开始的试用保留原到期时间，不因升级或早鸟结束而缩短。价格以购买时为准。
 
 试用记录保存在本机 Obsidian 的应用存储中，不随笔记库同步；正常重启不会重置。离线试用不保证跨设备、清空应用数据或修改系统时间后的严格防重复。
 
@@ -129,6 +139,10 @@
 
 可以在 GitHub [提交问题](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)，附上 Obsidian 版本、插件版本和复现步骤。截图请遮住私人日记内容，不要附上授权码。
 
+## 授权与离线使用
+
+新版加强了授权状态和试用记录的防篡改检查，保存图片前也会再次确认权益。已有永久授权继续离线使用，旧试用保留原到期时间，无须重新发码。异常记录会提示处理方式，免费回顾与已有内容保留。这是本地防护加固，不承诺无法破解。
+
 ## 作者与许可
 
 作者：Tangerine.Cat。
@@ -137,13 +151,15 @@
 
 使用与分享请遵循 [LICENSE](LICENSE)，未经作者授权不得转售或付费打包；既有版本已授予的权利不受后续许可变更的追溯影响。封面图片的来源与许可见 [图库说明](assets/covers/README.md)。
 
+源码修改许可不自动授予付费权益。许可保留正常维护、合法修改及善意安全研究的空间，同时限制以获取未经授权付费权益为目的的绕过与解锁版本分发。激活失败、换机恢复及研究报告方式见 [授权边界与故障处理](docs/LICENSE-SUPPORT.md)。
+
 ---
 
 ## English
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.4.3 lets you save a layout, photo, and crop as a reusable template.**
+**Version 0.5.0 adds image positioning, resizable text frames, and direct text editing in the preview.**
 
 ### Review your notes
 
@@ -174,7 +190,7 @@ Choose an image from the built-in gallery, preview it, and drag to adjust its po
 
 Export a whole note or a selected passage using four templates: a minimal page, a handwritten diary, text over a full photo, or a photo with a handwritten paper note.
 
-Image export is included in lifetime membership and the optional 72-hour full trial. All four templates are available, with no watermark or export limit.
+Image export is included in lifetime membership and an optional full trial: 72 hours when started during the early-bird period, or 24 hours afterward. All four templates are available, with no watermark or export limit.
 
 ![Four actual template previews using the same sample passage](docs/images/image-export-templates.png)
 
@@ -196,6 +212,10 @@ Removed templates can be restored. Permanent deletion requires confirmation and 
 
 Images are generated locally and saved to the note's attachment folder by default. You can choose another vault folder and filename format; existing files are preserved. Common Markdown content, wikilink text, and local images are supported. Formulas, Dataview, whole-note embeds, and other dynamic plugin content are not supported. Missing or remote images need to be resolved before export.
 
+### Edit the preview
+
+In the full-photo essay layout, move and resize text frames or double-click to edit text for the image. Move, proportionally resize, align, or reset inline images. Other layouts also support sizing and rearranging inline images. Adjust paper texture strength; signatures adapt to the photo background. Text frames can be saved with a template. Temporary inline-image positions apply to the current composition and do not modify the source note.
+
 ### Adjust reading and review filters
 
 Set the reading font, size, line spacing, and text width for reviews and books. Exclude folders, tags, or recent notes from random and on-this-day review. These filters do not change bookshelf contents.
@@ -216,7 +236,7 @@ On first export, click to download approximately 53 MB of fonts and images from 
 
 Random review, on-this-day review, review history, comments, and review-set management are permanently free.
 
-Optional lifetime membership costs **CNY 19.9 for 30 days from the public release, then CNY 39.9**. The early-bird window is 2026-11-07T11:33:19.070Z through 2026-12-07T11:33:19.070Z (UTC); the regular price applies at the end instant. Membership includes bookshelf reading, full image export with all four templates, fonts and colors, saved styles, future local feature updates, and support. Existing lifetime members receive all benefits without an upgrade fee or reactivation. Users can explicitly start a **72-hour full trial**, with no watermark, export limit, or automatic charge. After expiry, free review remains available and notes, exported images, photos, and saved styles are retained. Starting a trial does not reserve the early-bird price. Offline trial records stay in local Obsidian application storage and are not synced with the vault. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
+Optional lifetime membership costs **CNY 19.9 for 14 days from the public release, then CNY 39.9**. The early-bird window is 2026-11-07T11:33:19.070Z through 2026-11-21T11:33:19.070Z (UTC); the regular price applies at the end instant. Membership includes bookshelf reading, full image export with all four templates, fonts and colors, saved styles, future local feature updates, and support. Existing lifetime members receive all benefits without an upgrade fee or reactivation. Users can explicitly start a **full trial: 72 hours during the early-bird period, or 24 hours afterward**, with no watermark, export limit, or automatic charge. After expiry, free review remains available and notes, exported images, photos, and saved styles are retained. Existing trials retain their original expiry, including legacy 72-hour records. Starting a trial does not reserve the early-bird price. Offline trial records stay in local Obsidian application storage and are not synced with the vault. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
 
 Activation is stored on the device and does not sync with your vault. Changing devices, clearing application data, or some reinstallations may require a replacement license.
 
@@ -229,3 +249,5 @@ Tested on Windows desktop. Physical mobile devices and the declared minimum Obsi
 [Report an issue](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues) with your Obsidian version, plugin version, and steps to reproduce the problem. Do not include private journal content or license codes.
 
 The public repository provides releases and documentation. Current source is private and available to Obsidian for review; historical public source does not represent the current release. See [LICENSE](LICENSE) for terms and [cover credits](assets/covers/README.md) for image sources and licenses.
+
+Permission to modify the source does not automatically grant paid entitlements. The license preserves legitimate maintenance, modifications, and good-faith security research while restricting bypasses and unlocked distributions intended to provide unauthorized paid access. See [licensing boundaries and support](docs/LICENSE-SUPPORT.md) for activation recovery and reporting guidance.

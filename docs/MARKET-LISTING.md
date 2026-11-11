@@ -1,32 +1,17 @@
-# 插件市场文案
-
-以下文案用于 0.4.3，功能与 README 同步。
-
-## 中文简介
-
-随机翻看旧日记，重读往年今日，把现在的感想写进今天。把笔记放上书架，也能用自己保存的模板排成图片。
+# 插件市场文案（0.5.0）
 
 ## Short description
 
-Revisit old notes, save reflections, read journals as books, and turn notes into images with reusable templates.
+Revisit old notes, read journals as books, and arrange text and photos in an editable preview before saving them as images.
 
 ## Long description
 
-Revisit random notes or this day in past years. Save reflections to today's daily note with links to the originals. Review history, review sets, and folder or tag filters are free. Lifetime membership adds bookshelf reading and image export. Organize notes into books by month or subfolder, with 35 bundled covers or your own images. Export a note or selected passage using four layouts. Adjust fonts, paper colors, photos, and crop positions, then save your layout as a template. Manage built-in and custom templates together: copy, edit, reorder, remove, or restore them. Existing saved styles and temporary adjustments are retained. Save a PNG, a long image, or a ZIP of all pages. Export edits do not change the note. Fonts and images download from GitHub once on request; export works offline afterward. Try all paid features for 72 hours, with no watermark, export limit, or automatic charge. Free review remains available after the trial. Existing lifetime members pay no upgrade fee.
+Revisit random notes or this day in past years, then save reflections to today's note with links to the originals. Reviews, history, review sets, and folder or tag filters are free. Lifetime membership adds bookshelf reading and image export. Group notes into books by month or subfolder and choose from 35 covers or your own images. Export a note or selection with four layouts. Move and resize text frames, edit text in the preview, and arrange inline images. Adjust fonts, paper texture, colors, and photos; save reusable templates. Export PNGs, long images, or all pages as a ZIP without changing the original note. Fonts and images download once on request, then work offline. New trials last 72 hours during the early-bird period and 24 hours afterward; existing expiry dates are preserved. No watermark, export limit, or automatic charge. License and trial checks are hardened while preserving existing paid access and offline use.
 
 ## Payment description
 
-Lifetime membership: CNY 19.9 until Dec 7, 2026 at 11:33 UTC, then CNY 39.9. Includes bookshelf, image export, custom templates, fonts, colors, updates and support. Optional 72-hour full trial; no auto-charge. Existing members pay no upgrade fee. The trial does not reserve the early-bird price.
-
-早鸟时间沿用首次正式发布，不随本次升级重新计时。市场字段上限：简介 200、长简介 1000、付费说明 300 字符。
+Lifetime: CNY 19.9 until Nov 21, 2026 at 11:33:19 UTC, then CNY 39.9. Includes bookshelf, image export, templates, fonts, colors and updates. New trials: 72 hours during early bird, 24 hours afterward. Existing trial expiry stays unchanged. No auto-charge or upgrade fee for existing members.
 
 ## 详情页
 
-详情页使用仓库 README.md，中英文已同步模板管理、旧样式兼容与首次资源下载说明。
-
-本版新增实际截图：
-
-- docs/images/image-export-studio-v042.png：演示库使用保存的“午后手账”模板，不含私人日记。
-- docs/images/template-manager-v042.png：内置和自建模板统一管理。
-
-市场独立图库现有五张图；本次新增截图通过 README 详情页展示，不删除既有图库图片。
+使用 README 的中英文说明与真实演示截图。早鸟精确截止时间为 2026-11-21T11:33:19.070Z，已有试用和永久权益保留。

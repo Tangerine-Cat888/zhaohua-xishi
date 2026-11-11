@@ -4,7 +4,7 @@
 
 **0.5.0：在预览里拖动图片、调整文字框，双击文字直接编辑。**
 
-0.5.1 修复预览编辑的兼容性与审核规范问题，功能和会员权益不变。
+0.5.2 改进首次资源下载：显示进度，支持暂停和断点续传，连接中断后自动重试。会员权益不变。
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 

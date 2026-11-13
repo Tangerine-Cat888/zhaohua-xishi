@@ -2,9 +2,9 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。也可以把笔记放上书架，或排成图片保存下来。
 
-**0.5.0：在预览里拖动图片、调整文字框，双击文字直接编辑。**
+**0.6.0：把笔记排成公众号文章，复制排版后粘贴到公众号后台。**
 
-0.5.2 改进首次资源下载：显示进度，支持暂停和断点续传，连接中断后自动重试。会员权益不变。
+公众号排版包含在现有永久会员与有效试用中，无须补差价。图片导出的资源下载继续支持进度、暂停和断点续传。
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 
@@ -88,6 +88,25 @@
 
 纸感强度可以单独调整，照片上的署名会根据背景明暗选择更清楚的颜色。文字框可以随模板保存；正文图片的临时位置用于当前排版，不写回原笔记。
 
+## 把笔记排成公众号文章
+
+在笔记中运行「公众号排版」，或选中文字后从右键菜单打开。左侧临时整理原稿，中间查看手机宽度的效果，右侧调整样式。删去不想公开的段落，也不会改动原笔记。
+
+![公众号排版：临时整理原稿，预览文章并调整标题和正文](docs/images/wechat-layout-v060.png)
+
+- 三款内置模板：爱学习的橘子猫、清爽长文、蓝调手记。
+- 调整字号、行距、段间距、标题样式和配色，也可以选中文字单独改色。
+- 标题层级自动跟随正文，也可按原始层级排版；可选显示文章标题、署名和固定结尾。
+- 点击「复制排版」，再到公众号后台粘贴；也可导出 HTML 到笔记附件目录，同名文件自动编号。
+
+库内图片会读取并嵌入，缺图或读取失败时会提示并阻止输出。网络图片保留原链接；公众号后台可能进一步处理排版和图片，粘贴后请检查。插件不自动上传或发布文章。
+
+喜欢的排版可以另存为模板。设置中的「公众号排版」支持管理模板和配色，复制新建、编辑、排序、移除后恢复。模板保存整套样式，配色方案保存颜色组合；模板不包含文章正文和图片。
+
+![公众号配色编辑：预览文章，选择各元素使用的颜色](docs/images/wechat-palette-v060.png)
+
+以上截图使用模拟文章。关闭排版窗口后，临时正文和局部字色不保留；排版偏好、个人模板及明确保存的固定结尾保存在当前库的插件设置中。详细说明见 [公众号排版](docs/WECHAT-LAYOUT.md)。
+
 ## 按自己的习惯阅读
 
 回顾页和书架可以统一设置字体、字号、行距和正文宽度。
@@ -111,7 +130,7 @@
 
 随机回顾、往年今日、回顾记录、保存感想和回顾集管理永久免费。新版中的回顾筛选也免费。
 
-**永久会员：正式发布起 14 天早鸟价 ¥19.9，之后 ¥39.9。** 早鸟时间：北京时间 **2026/11/7 19:33:19 至 2026/11/21 19:33:19**，截止时起恢复原价。包含书架阅读、四款模板完整图片导出、字体与颜色定制、自定义样式、后续本地功能更新及售后支持。已有永久会员直接享有全部权益，无须补差价或重新激活。
+**永久会员：正式发布起 14 天早鸟价 ¥19.9，之后 ¥39.9。** 早鸟时间：北京时间 **2026/11/7 19:33:19 至 2026/11/21 19:33:19**，截止时起恢复原价。包含公众号排版、书架阅读、四款模板完整图片导出、字体与颜色定制、自定义样式、后续本地功能更新及售后支持。已有永久会员直接享有全部权益，无须补差价或重新激活。
 
 未购买用户可在授权页主动开启 **完整会员体验：早鸟期间新开通 72 小时，早鸟结束后新开通 24 小时**，不限导出次数、无水印，不自动扣费。到期恢复免费版，笔记、已导出图片、照片与已保存样式均保留，购买后继续使用。已开始的试用保留原到期时间，不因升级或早鸟结束而缩短。价格以购买时为准。
 
@@ -161,7 +180,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.5.0 adds image positioning, resizable text frames, and direct text editing in the preview.**
+**Version 0.6.0 adds article formatting for WeChat Official Accounts, included in existing membership and active trials.**
 
 ### Review your notes
 
@@ -218,6 +237,16 @@ Images are generated locally and saved to the note's attachment folder by defaul
 
 In the full-photo essay layout, move and resize text frames or double-click to edit text for the image. Move, proportionally resize, align, or reset inline images. Other layouts also support sizing and rearranging inline images. Adjust paper texture strength; signatures adapt to the photo background. Text frames can be saved with a template. Temporary inline-image positions apply to the current composition and do not modify the source note.
 
+### Format articles for WeChat Official Accounts
+
+Open **公众号排版** from the command palette, editor context menu, review, or bookshelf. Work with the current note or selection, edit a temporary copy, and preview at mobile width without changing the original note.
+
+Choose from three templates, adjust typography, heading styles and colors, or apply color to selected text. Copy the formatted article to paste into the official account editor, or save HTML to the note’s attachment folder without overwriting existing files. Local images are embedded; missing images block output with an error. Remote images keep their URLs. Check the result after pasting, as the destination editor may change formatting or images. The plugin does not upload or publish articles.
+
+Save reusable templates and palettes, and manage them in settings. Temporary article text and local text-color selections are discarded when the window closes. Explicitly saved endings and layout preferences remain in this vault’s plugin settings. Screenshots use sample text.
+
+![WeChat article formatting with temporary editing and live preview](docs/images/wechat-layout-v060.png)
+
 ### Adjust reading and review filters
 
 Set the reading font, size, line spacing, and text width for reviews and books. Exclude folders, tags, or recent notes from random and on-this-day review. These filters do not change bookshelf contents.
@@ -238,7 +267,7 @@ On first export, click to download approximately 53 MB of fonts and images from 
 
 Random review, on-this-day review, review history, comments, and review-set management are permanently free.
 
-Optional lifetime membership costs **CNY 19.9 for 14 days from the public release, then CNY 39.9**. The early-bird window is 2026-11-07T11:33:19.070Z through 2026-11-21T11:33:19.070Z (UTC); the regular price applies at the end instant. Membership includes bookshelf reading, full image export with all four templates, fonts and colors, saved styles, future local feature updates, and support. Existing lifetime members receive all benefits without an upgrade fee or reactivation. Users can explicitly start a **full trial: 72 hours during the early-bird period, or 24 hours afterward**, with no watermark, export limit, or automatic charge. After expiry, free review remains available and notes, exported images, photos, and saved styles are retained. Existing trials retain their original expiry, including legacy 72-hour records. Starting a trial does not reserve the early-bird price. Offline trial records stay in local Obsidian application storage and are not synced with the vault. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
+Optional lifetime membership costs **CNY 19.9 for 14 days from the public release, then CNY 39.9**. The early-bird window is 2026-11-07T11:33:19.070Z through 2026-11-21T11:33:19.070Z (UTC); the regular price applies at the end instant. Membership includes WeChat article layout, bookshelf reading, full image export with all four templates, fonts and colors, saved styles, future local feature updates, and support. Existing lifetime members receive all benefits without an upgrade fee or reactivation. Users can explicitly start a **full trial: 72 hours during the early-bird period, or 24 hours afterward**, with no watermark, export limit, or automatic charge. After expiry, free review remains available and notes, exported images, photos, and saved styles are retained. Existing trials retain their original expiry, including legacy 72-hour records. Starting a trial does not reserve the early-bird price. Offline trial records stay in local Obsidian application storage and are not synced with the vault. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
 
 Activation is stored on the device and does not sync with your vault. Changing devices, clearing application data, or some reinstallations may require a replacement license.
 

@@ -1,9 +1,9 @@
 {
   "id": "zhaohua-xishi",
   "name": "Zhaohua Xishi",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "minAppVersion": "1.7.2",
-  "description": "Revisit journal entries, save reflections to today's note, read notes as books, and export notes or selected passages as images.",
+  "description": "Revisit old notes, read journals as books, export notes as images, and format articles for WeChat Official Accounts.",
   "author": "Tangerine.Cat",
   "isDesktopOnly": false
 }

@@ -439,3 +439,24 @@
 .zh-template-editor{width:min(660px,calc(100vw - 32px))}
 .zh-template-editor .modal-content{overflow-y:auto}
 .zh-template-editor .setting-item-control{flex-wrap:wrap}
+
+/* WeChat palette management shares the compact swatch cards used in the studio. */
+.zh-library-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0}
+.zh-library-card{min-width:0;padding:16px;border-radius:8px;background:var(--background-secondary)}
+.zh-library-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.zh-library-name{font-size:var(--font-ui-small);font-weight:var(--font-medium);color:var(--text-normal);overflow-wrap:anywhere}
+.zh-library-kind{flex:none;font-size:var(--font-ui-smaller);color:var(--text-muted)}
+.zh-library-swatches{display:flex;gap:5px}
+.zh-library-swatches span{flex:1;height:9px;border:1px solid #8882;border-radius:3px}
+.zh-library-card .zh-library-actions{border:0;padding:12px 0 0}
+.zh-library-actions .setting-item-info{display:none}
+.zh-library-actions .setting-item-control{width:100%;justify-content:flex-start;gap:6px}
+.zh-library-actions button{box-shadow:none;border:0;background:transparent;padding:4px 0;margin-right:auto;font-size:var(--font-ui-small);color:var(--text-muted)}
+.zh-library-actions button:hover{color:var(--text-normal)}
+.zh-library-actions .clickable-icon{min-width:28px;min-height:28px}
+@media(max-width:520px){.zh-library-grid{grid-template-columns:minmax(0,1fr)}}
+
+.zh-library-template-preview{margin-top:12px;padding:12px;border-radius:4px;font-size:15px;line-height:1.8;overflow-wrap:anywhere}
+.zh-library-template-meta{margin-top:10px;font-size:var(--font-ui-smaller);line-height:1.5;color:var(--text-muted)}
+
+.modal.zh-export-template-editor{width:min(1400px,calc(100vw - 32px));max-width:1400px;height:calc(100dvh - 40px);max-height:1000px}

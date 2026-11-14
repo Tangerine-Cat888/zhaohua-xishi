@@ -2,7 +2,7 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。把日记和笔记整理成书阅读，排成图片保存，或排版后复制到公众号。
 
-**0.6.1：公众号 HTML 可自选保存目录和命名；模板保存、复制和删除更顺手。**
+**0.6.2：回顾页长标题和操作按钮排版更清楚，新建回顾集后会提示切换入口。**
 
 公众号排版包含在现有永久会员与有效试用中，无须补差价。图片导出的资源下载继续支持进度、暂停和断点续传。
 
@@ -180,7 +180,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.6.1 adds independent HTML export folders and filenames, and improves template saving, copying, and deletion.**
+**Version 0.6.2 improves review headers on narrow windows and shows where to switch to a newly created review set.**
 
 ### Review your notes
 

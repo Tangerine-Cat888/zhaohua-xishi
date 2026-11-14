@@ -21,9 +21,10 @@
 .zhaohua-shell button:focus-visible {outline:2px solid var(--interactive-accent);outline-offset:3px}
 .zhaohua-shell button:disabled {opacity:.5;cursor:default}
 .zhaohua-card {margin:0;padding:0;background:transparent;border:0}
-.zhaohua-date-row {display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:24px;border-bottom:1px solid var(--zh-line)}
-.zhaohua-date {display:block;font-size:clamp(23px,4cqi,29px);font-weight:600;line-height:1.4;letter-spacing:-.02em}
-.zhaohua-age {font-size:14px;color:var(--zh-muted);margin-top:8px;font-variant-numeric:tabular-nums}
+.zhaohua-date-row {display:flex;flex-direction:column;gap:8px;padding-bottom:24px;border-bottom:1px solid var(--zh-line)}
+.zhaohua-date {display:block;margin:0;font-size:clamp(23px,4cqi,29px);font-weight:600;line-height:1.4;letter-spacing:-.02em;overflow-wrap:anywhere}
+.zhaohua-note-meta {display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px 16px;width:100%;min-width:0}
+.zhaohua-age {font-size:14px;color:var(--zh-muted);font-variant-numeric:tabular-nums}
 .zhaohua-shell .zhaohua-link {padding:6px 0;background:transparent;color:var(--text-muted);white-space:nowrap}
 .zhaohua-shell .zhaohua-link:hover {color:var(--text-normal);text-decoration:underline;background:transparent}
 .zhaohua-body {font-family:var(--zh-pref-font,inherit);font-size:var(--zh-pref-size,17px);line-height:var(--zh-pref-leading,1.9);overflow-wrap:anywhere;padding:16px 0 32px}

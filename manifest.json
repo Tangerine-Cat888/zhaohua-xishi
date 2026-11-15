@@ -1,9 +1,9 @@
 {
   "id": "zhaohua-xishi",
   "name": "Zhaohua Xishi",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "minAppVersion": "1.7.2",
-  "description": "Review past notes, read journals as books, export images, and format WeChat articles with reusable templates and HTML export.",
+  "description": "Review past notes, read journals as books, format WeChat articles, and export notes as images, long images, or cards.",
   "author": "Tangerine.Cat",
   "isDesktopOnly": false
 }

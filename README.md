@@ -1,8 +1,8 @@
 # 朝花夕拾 · Zhaohua Xishi
 
-随机翻看旧日记，重读往年今日，把现在的感想写进今天。把日记和笔记整理成书阅读，排成图片保存，或排版后复制到公众号。
+随机翻看旧日记，重读往年今日，把现在的感想写进今天。把笔记整理成书阅读，排版后复制到公众号，或保存为长图和图文卡片。
 
-**0.6.2：回顾页长标题和操作按钮排版更清楚，新建回顾集后会提示切换入口。**
+**0.6.3：公众号排版新增长图、3:4 和 9:16 图文卡片导出，先预览再保存，多张卡片自动打包。**
 
 公众号排版包含在现有永久会员与有效试用中，无须补差价。图片导出的资源下载继续支持进度、暂停和断点续传。
 
@@ -97,9 +97,11 @@
 - 三款内置模板：爱学习的橘子猫、清爽长文、蓝调手记。
 - 调整字号、行距、段间距、标题样式和配色，也可以选中文字单独改色。
 - 标题层级自动跟随正文，也可按原始层级排版；可选显示文章标题、署名和固定结尾。
-- 点击「复制排版」，再到公众号后台粘贴；也可导出 HTML。默认沿用笔记附件目录，或在设置中指定库内文件夹；支持标题、日期和自定义命名，同名文件自动编号。
+- 点击「复制排版」，再到公众号后台粘贴；点击「导出分享」可保存 HTML、长图或 3:4 / 9:16 图文卡片。先翻页检查预览，确认后保存；多张卡片打包为 ZIP。默认沿用笔记附件目录，或在设置中指定库内文件夹；支持标题、日期和自定义命名，同名文件自动编号。
 
-库内图片会读取并嵌入，缺图或读取失败时会提示并阻止输出。网络图片保留原链接；公众号后台可能进一步处理排版和图片，粘贴后请检查。插件不自动上传或发布文章。
+库内图片会读取并嵌入，缺图或读取失败时会提示并阻止输出。HTML 与复制排版保留网络图片链接；导出图片时会尝试下载，遇到跨域限制或下载失败，请先把图片保存到笔记库再引用。过高的图片或表格不能完整放入卡片时，会提示改用长图或调整内容。公众号后台可能进一步处理排版和图片，粘贴后请检查。插件不自动上传或发布文章。
+
+![导出分享：预览图文卡片，确认后保存](docs/images/wechat-share-v063.png)
 
 喜欢的排版可以另存为模板。设置中的「公众号排版」支持管理模板和配色，复制新建、编辑、排序、移除后恢复，也可在“已移除”中确认后彻底删除。保存成功后自动关闭编辑窗口，失败保留输入；复制时自动处理长名称和重名。模板保存整套样式，配色方案保存颜色组合；模板不包含文章正文和图片。
 
@@ -180,7 +182,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.6.2 improves review headers on narrow windows and shows where to switch to a newly created review set.**
+**Version 0.6.3 adds long-image and 3:4 / 9:16 card exports to WeChat article layout, with preview before saving and ZIP output for multiple cards.**
 
 ### Review your notes
 
@@ -247,7 +249,9 @@ Save reusable templates and palettes, and manage them in settings. Temporary art
 
 ![WeChat article formatting with temporary editing and live preview](docs/images/wechat-layout-v060.png)
 
-HTML exports use the note attachment folder by default. Choose a vault folder and a title, date, or custom filename in settings. Existing files are preserved with numbered names. Template editors close after a successful save and retain input on failure. Removed templates and palettes can be permanently deleted after confirmation.
+Use **导出分享** to save HTML, a long PNG, or 3:4 / 9:16 cards. Review the preview before saving; multiple cards are packaged in a ZIP. Image export fetches remote images without credentials; download or cross-origin failures require saving images in the vault first. Oversized media cannot be split across cards; resize it or use a long image.
+
+Exports use the note attachment folder by default. Choose a vault folder and a title, date, or custom filename in settings. Existing files are preserved with numbered names. Template editors close after a successful save and retain input on failure. Removed templates and palettes can be permanently deleted after confirmation.
 
 ### Adjust reading and review filters
 

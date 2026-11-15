@@ -2,7 +2,7 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。把笔记整理成书阅读，排版后复制到公众号，或保存为长图和图文卡片。
 
-**0.6.3：公众号排版新增长图、3:4 和 9:16 图文卡片导出，先预览再保存，多张卡片自动打包。**
+**0.6.4：修复独立窗口中图片导出卡住的问题。0.6.3 公众号排版新增长图、3:4 和 9:16 图文卡片导出，先预览再保存，多张卡片自动打包。**
 
 公众号排版包含在现有永久会员与有效试用中，无须补差价。图片导出的资源下载继续支持进度、暂停和断点续传。
 
@@ -182,7 +182,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.6.3 adds long-image and 3:4 / 9:16 card exports to WeChat article layout, with preview before saving and ZIP output for multiple cards.**
+**Version 0.6.4 fixes image export in separate windows. Version 0.6.3 adds long-image and 3:4 / 9:16 card exports to WeChat article layout, with preview before saving and ZIP output for multiple cards.**
 
 ### Review your notes
 

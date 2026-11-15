@@ -57,6 +57,11 @@
 
 # Changelog
 
+## 0.6.4
+
+- 修复从独立窗口打开图片导出时，消息仍绑定主窗口，导致停在“准备纸张”且无法保存的问题。
+- 字体图库下载、现有模板和会员权益保持不变。
+
 ## 0.4.2 — 2026-11-08
 
 - Unify built-in layouts and saved styles into one template picker. Save layouts with photos and crop positions without copying note content.

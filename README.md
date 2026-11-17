@@ -2,7 +2,7 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。把笔记整理成书阅读，排版后复制到公众号，或保存为长图和图文卡片。
 
-**0.6.4：修复独立窗口中图片导出卡住的问题。0.6.3 公众号排版新增长图、3:4 和 9:16 图文卡片导出，先预览再保存，多张卡片自动打包。**
+**0.6.5：图片和公众号排版支持标注块。提示、警告、引用等内容可以跟随模板配色，也可以按类型显示不同颜色。**
 
 公众号排版包含在现有永久会员与有效试用中，无须补差价。图片导出的资源下载继续支持进度、暂停和断点续传。
 
@@ -109,6 +109,16 @@
 
 以上截图使用模拟文章。关闭排版窗口后，临时正文和局部字色不保留；排版偏好、个人模板及明确保存的固定结尾保存在当前库的插件设置中。详细说明见 [公众号排版](docs/WECHAT-LAYOUT.md)。
 
+## 提示、警告和引用，也能一起排版
+
+笔记中的 `> [!tip]`、`> [!warning]` 等标注块，可以直接用于图片导出和公众号排版。标题、列表和嵌套内容会保留，折叠的正文导出时完整展开。
+
+![公众号标注块：原稿、彩色预览与配色选择](docs/images/callouts-wechat-v065.png)
+
+在图片排版的“文字”或公众号排版的“配色”中，选择 **标注块配色**：默认跟随当前排版，也可按 13 类标注分别配色。选择会随模板保存，旧模板继续使用默认配色。以上截图使用模拟文章。
+
+短标注尽量放在同一页；长文字标注允许跨页，标题与后面的正文一起排。图片画布中支持编辑的标注，改字后仍保留标注语法。含图片、表格或代码的复杂内容请在原稿区修改；过高内容会提示调整或改用长图。
+
 ## 按自己的习惯阅读
 
 回顾页和书架可以统一设置字体、字号、行距和正文宽度。
@@ -182,7 +192,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.6.4 fixes image export in separate windows. Version 0.6.3 adds long-image and 3:4 / 9:16 card exports to WeChat article layout, with preview before saving and ZIP output for multiple cards.**
+**Version 0.6.5 adds Obsidian callouts to image export and WeChat layout. Keep the template colors or color callouts by type; folded content is expanded in exports. Nested content and editable callout syntax are preserved.**
 
 ### Review your notes
 

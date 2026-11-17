@@ -2,7 +2,7 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。把笔记整理成书阅读，排版后复制到公众号，或保存为长图和图文卡片。
 
-**0.6.5：图片和公众号排版支持标注块。提示、警告、引用等内容可以跟随模板配色，也可以按类型显示不同颜色。**
+**0.6.6：图片和公众号排版支持标注块。提示、警告、引用等内容可以跟随模板配色，也可以按类型显示不同颜色。**
 
 公众号排版包含在现有永久会员与有效试用中，无须补差价。图片导出的资源下载继续支持进度、暂停和断点续传。
 
@@ -192,7 +192,7 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.6.5 adds Obsidian callouts to image export and WeChat layout. Keep the template colors or color callouts by type; folded content is expanded in exports. Nested content and editable callout syntax are preserved.**
+**Version 0.6.6 includes Obsidian callouts to image export and WeChat layout. Keep the template colors or color callouts by type; folded content is expanded in exports. Nested content and editable callout syntax are preserved.**
 
 ### Review your notes
 

@@ -18,4 +18,4 @@ Lifetime membership costs CNY 39.9 as a one-time purchase. It includes the books
 
 市场详情正文使用 README 的中英文说明。
 
-[观看新版书架与照片墙宣传片（51 秒）](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903)
+[观看新版书架与照片墙宣传片（51 秒）](https://github.com/Tangerine-Cat888/zhaohua-xishi/pull/1)

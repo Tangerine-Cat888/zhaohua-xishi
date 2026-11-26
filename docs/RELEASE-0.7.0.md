@@ -7,4 +7,4 @@
 - 市场安装或更新使用 main.js、manifest.json 和 styles.css。首次使用图片导出时可按提示下载字体和图库。
 - 完整离线包内已包含资源。手动升级请保留 data.json、export-fonts/ 和 export-photos/。
 
-[观看 51 秒宣传片](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903)
+[观看 51 秒宣传片](https://github.com/Tangerine-Cat888/zhaohua-xishi/pull/1)

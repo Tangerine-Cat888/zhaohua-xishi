@@ -6,9 +6,9 @@
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
 
-[![朝花夕拾新版书架与照片墙，弧形书架中央是《卡夫卡的日记》](docs/images/bookshelf-tour-poster.jpg)](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903)
+[![朝花夕拾新版书架与照片墙，弧形书架中央是《卡夫卡的日记》](docs/images/bookshelf-tour-poster.jpg)](https://github.com/Tangerine-Cat888/zhaohua-xishi/pull/1)
 
-[看宣传片 · 从书架走进照片墙（51 秒）](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903) · [原画 MP4](docs/media/bookshelf-tour.mp4)
+[看宣传片 · 从书架走进照片墙（51 秒）](https://github.com/Tangerine-Cat888/zhaohua-xishi/pull/1) · [原画 MP4](docs/media/bookshelf-tour.mp4)
 
 ## 回顾日记和笔记
 
@@ -194,9 +194,9 @@ Rediscover old journal entries, revisit this day in past years, and save reflect
 
 **Browse the bookshelf by dragging the covers, or pick a title from the book list. Open a book to explore its entries on a wall of text and photos.**
 
-[![The curved bookshelf with Kafka’s diary in the center and a glimpse of the photo wall](docs/images/bookshelf-tour-poster.jpg)](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903)
+[![The curved bookshelf with Kafka’s diary in the center and a glimpse of the photo wall](docs/images/bookshelf-tour-poster.jpg)](https://github.com/Tangerine-Cat888/zhaohua-xishi/pull/1)
 
-[Watch the bookshelf and photo wall tour (51 seconds)](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903) · [Original MP4](docs/media/bookshelf-tour.mp4)
+[Watch the bookshelf and photo wall tour (51 seconds)](https://github.com/Tangerine-Cat888/zhaohua-xishi/pull/1) · [Original MP4](docs/media/bookshelf-tour.mp4)
 
 ### Review your notes
 

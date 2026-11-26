@@ -1,17 +1,21 @@
-# 插件市场文案（0.5.0）
+# 插件市场文案
 
 ## Short description
 
-Revisit old notes, read journals as books, and arrange text and photos in an editable preview before saving them as images.
+Review past notes, browse journals by their covers, format WeChat articles, and export images or cards with callouts.
 
 ## Long description
 
-Revisit random notes or this day in past years, then save reflections to today's note with links to the originals. Reviews, history, review sets, and folder or tag filters are free. Lifetime membership adds bookshelf reading and image export. Group notes into books by month or subfolder and choose from 35 covers or your own images. Export a note or selection with four layouts. Move and resize text frames, edit text in the preview, and arrange inline images. Adjust fonts, paper texture, colors, and photos; save reusable templates. Export PNGs, long images, or all pages as a ZIP without changing the original note. Fonts and images download once on request, then work offline. New trials last 72 hours during the early-bird period and 24 hours afterward; existing expiry dates are preserved. No watermark, export limit, or automatic charge. License and trial checks are hardened while preserving existing paid access and offline use.
+Revisit a random note or read what you wrote on this day in past years. Save a reflection to today's note with a link to the original. Reviews, history and filters are free.
+
+The bookshelf groups journals by month or notes by folder. Drag the covers to browse, or pick a book by title. Open a book to explore its entries on a wall of text and photos. Members can also export notes as images, lay out WeChat articles, and save their own templates. Both editors support nested callouts. Fonts and pictures for image export download on request and then work offline.
 
 ## Payment description
 
-Lifetime: CNY 19.9 until Nov 21, 2026 at 11:33:19 UTC, then CNY 39.9. Includes bookshelf, image export, templates, fonts, colors and updates. New trials: 72 hours during early bird, 24 hours afterward. Existing trial expiry stays unchanged. No auto-charge or upgrade fee for existing members.
+Lifetime membership costs CNY 39.9 as a one-time purchase. It includes the bookshelf, image export, WeChat layout, custom templates, updates and support. Random review and reflections are free.
 
 ## 详情页
 
-使用 README 的中英文说明与真实演示截图。早鸟精确截止时间为 2026-11-21T11:33:19.070Z，已有试用和永久权益保留。
+市场详情正文使用 README 的中英文说明。
+
+[观看新版书架与照片墙宣传片（51 秒）](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903)

@@ -2,11 +2,13 @@
 
 随机翻看旧日记，重读往年今日，把现在的感想写进今天。把笔记整理成书阅读，排版后复制到公众号，或保存为长图和图文卡片。
 
-**0.6.6：图片和公众号排版支持标注块。提示、警告、引用等内容可以跟随模板配色，也可以按类型显示不同颜色。**
-
-公众号排版包含在现有永久会员与有效试用中，无须补差价。图片导出的资源下载继续支持进度、暂停和断点续传。
+**新版书架可以左右翻封面。点开一本书，在图文墙上浏览篇目，选一张卡片就能读到正文。**
 
 [English](#english) · [插件主页](https://community.obsidian.md/plugins/zhaohua-xishi) · [问题反馈](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues)
+
+[![朝花夕拾新版书架与照片墙，弧形书架中央是《卡夫卡的日记》](docs/images/bookshelf-tour-poster.jpg)](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903)
+
+[看宣传片 · 从书架走进照片墙（51 秒）](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903) · [原画 MP4](docs/media/bookshelf-tour.mp4)
 
 ## 回顾日记和笔记
 
@@ -23,11 +25,13 @@
 
 ## 把笔记放上书架
 
-“我的书架”是可选的付费功能，可以把日记按月份分成一本本日记本，也可以把不同子文件夹里的笔记分别作为一本书阅读。
+日记按月成册，也可以让每个子文件夹各成一本书。在书架上左右拖动封面，或点书名打开“选择书目”，直接找到想读的那一本。
 
-![示例书架：经典文字、摄影题签、留白画册、满版影像四种封面](docs/images/bookshelf-styles-v2.png)
+![弧形书架，当前选中的书居中，两侧封面依次展开](docs/images/bookshelf-v070.jpg)
 
-从左到右是经典文字、摄影题签、留白画册、满版影像。同一张书架上可以使用不同的封面样式。
+点开封面，照片、短笺和长文就排在同一面墙上。按住空白处可以拖动，按 Ctrl 滚动可以放大看图。点一张卡片读正文、写感想，按 Esc 就回到刚才的位置。
+
+![一本书里的照片和文字摘录，按篇目排列在照片墙上](docs/images/photo-wall-v070.jpg)
 
 - 从目录选择篇目，调整阅读字号。
 - 设置书名，以及目录中显示的笔记标题。
@@ -42,7 +46,7 @@
 
 读到想留下的一段日记，或想分享一篇笔记，可以直接排版成图。不必复制到其他软件，也可以只选中其中几句话。
 
-图片导出包含在永久会员中，也可主动开启完整体验：早鸟期间新开通 72 小时，之后新开通 24 小时。四款模板均可使用，无水印、不限导出次数。
+永久会员可使用全部四款图片模板，无水印、不限导出次数。
 
 ![同一段示例文字的四种排版：极简白纸、手写日记、光影随笔、照片手账](docs/images/image-export-templates.png)
 
@@ -142,11 +146,7 @@
 
 随机回顾、往年今日、回顾记录、保存感想和回顾集管理永久免费。新版中的回顾筛选也免费。
 
-**永久会员：正式发布起 14 天早鸟价 ¥19.9，之后 ¥39.9。** 早鸟时间：北京时间 **2026/11/7 19:33:19 至 2026/11/21 19:33:19**，截止时起恢复原价。包含公众号排版、书架阅读、四款模板完整图片导出、字体与颜色定制、自定义样式、后续本地功能更新及售后支持。已有永久会员直接享有全部权益，无须补差价或重新激活。
-
-未购买用户可在授权页主动开启 **完整会员体验：早鸟期间新开通 72 小时，早鸟结束后新开通 24 小时**，不限导出次数、无水印，不自动扣费。到期恢复免费版，笔记、已导出图片、照片与已保存样式均保留，购买后继续使用。已开始的试用保留原到期时间，不因升级或早鸟结束而缩短。价格以购买时为准。
-
-试用记录保存在本机 Obsidian 的应用存储中，不随笔记库同步；正常重启不会重置。离线试用不保证跨设备、清空应用数据或修改系统时间后的严格防重复。
+**永久会员 ¥39.9，一次购买，永久使用。** 包含书架阅读、图片导出和公众号排版，以及自定义字体、配色和模板。已购会员可直接使用新版书架。
 
 购买方式：在插件设置中找到“授权与支持”，添加作者微信 **qian_yu_sui**，发送本机申请码。收到授权码后，回到同一页面粘贴激活。
 
@@ -182,7 +182,7 @@
 
 公开仓库提供安装包与使用说明；当前版本源码在私有仓库维护，并提供给 Obsidian 审核。公开仓库保留的旧版源码不代表当前版本的实现。
 
-使用与分享请遵循 [LICENSE](LICENSE)，未经作者授权不得转售或付费打包；既有版本已授予的权利不受后续许可变更的追溯影响。封面图片的来源与许可见 [图库说明](assets/covers/README.md)。
+使用与分享请遵循 [LICENSE](LICENSE)，未经作者授权不得转售或付费打包；既有版本已授予的权利不受后续许可变更的追溯影响。封面图片的来源与许可见 [图库说明](docs/COVER-CREDITS.md)。
 
 源码修改许可不自动授予付费权益。许可保留正常维护、合法修改及善意安全研究的空间，同时限制以获取未经授权付费权益为目的的绕过与解锁版本分发。激活失败、换机恢复及研究报告方式见 [授权边界与故障处理](docs/LICENSE-SUPPORT.md)。
 
@@ -192,7 +192,11 @@
 
 Rediscover old journal entries, revisit this day in past years, and save reflections to today's note. Read notes on a bookshelf or turn them into images.
 
-**Version 0.6.6 includes Obsidian callouts to image export and WeChat layout. Keep the template colors or color callouts by type; folded content is expanded in exports. Nested content and editable callout syntax are preserved.**
+**Browse the bookshelf by dragging the covers, or pick a title from the book list. Open a book to explore its entries on a wall of text and photos.**
+
+[![The curved bookshelf with Kafka’s diary in the center and a glimpse of the photo wall](docs/images/bookshelf-tour-poster.jpg)](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903)
+
+[Watch the bookshelf and photo wall tour (51 seconds)](https://github.com/user-attachments/assets/917aff7d-ce28-4ee0-a929-067430368903) · [Original MP4](docs/media/bookshelf-tour.mp4)
 
 ### Review your notes
 
@@ -211,9 +215,11 @@ The optional paid bookshelf groups entries into books by month or subfolder. Cho
 
 Books are for reading inside Obsidian. Ebook and PDF export are not supported.
 
-![Four cover layouts on one shelf: text, photo label, framed image, and full image](docs/images/bookshelf-styles-v2.png)
+![Curved bookshelf with the selected book in the center](docs/images/bookshelf-v070.jpg)
 
-From left to right: text, photo label, framed image, and full image. You can mix layouts on the same shelf.
+Open a cover to see photos and excerpts side by side. Drag the background to move around, or hold Ctrl and scroll to zoom. Select a card to read or write a reflection. Press Esc to return to the same spot.
+
+![Photos and excerpts from one book arranged on the wall](docs/images/photo-wall-v070.jpg)
 
 ![Built-in cover gallery with a live cover preview](docs/images/cover-gallery-v2.png)
 
@@ -223,7 +229,7 @@ Choose an image from the built-in gallery, preview it, and drag to adjust its po
 
 Export a whole note or a selected passage using four templates: a minimal page, a handwritten diary, text over a full photo, or a photo with a handwritten paper note.
 
-Image export is included in lifetime membership and an optional full trial: 72 hours when started during the early-bird period, or 24 hours afterward. All four templates are available, with no watermark or export limit.
+Image export is included in lifetime membership. All four templates are available, with no watermark or export limit.
 
 ![Four actual template previews using the same sample passage](docs/images/image-export-templates.png)
 
@@ -283,7 +289,7 @@ On first export, click to download approximately 53 MB of fonts and images from 
 
 Random review, on-this-day review, review history, comments, and review-set management are permanently free.
 
-Optional lifetime membership costs **CNY 19.9 for 14 days from the public release, then CNY 39.9**. The early-bird window is 2026-11-07T11:33:19.070Z through 2026-11-21T11:33:19.070Z (UTC); the regular price applies at the end instant. Membership includes WeChat article layout, bookshelf reading, full image export with all four templates, fonts and colors, saved styles, future local feature updates, and support. Existing lifetime members receive all benefits without an upgrade fee or reactivation. Users can explicitly start a **full trial: 72 hours during the early-bird period, or 24 hours afterward**, with no watermark, export limit, or automatic charge. After expiry, free review remains available and notes, exported images, photos, and saved styles are retained. Existing trials retain their original expiry, including legacy 72-hour records. Starting a trial does not reserve the early-bird price. Offline trial records stay in local Obsidian application storage and are not synced with the vault. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
+A lifetime membership costs **CNY 39.9** as a one-time purchase. It includes the bookshelf, image export, WeChat layout, custom templates, local feature updates and support. Existing members can use the redesigned bookshelf with their current license. To purchase, contact the author on WeChat at **qian_yu_sui** and send the device request code shown in plugin settings. Paste the returned license code into the same settings page to activate.
 
 Activation is stored on the device and does not sync with your vault. Changing devices, clearing application data, or some reinstallations may require a replacement license.
 
@@ -295,6 +301,6 @@ Tested on Windows desktop. Physical mobile devices and the declared minimum Obsi
 
 [Report an issue](https://github.com/Tangerine-Cat888/zhaohua-xishi/issues) with your Obsidian version, plugin version, and steps to reproduce the problem. Do not include private journal content or license codes.
 
-The public repository provides releases and documentation. Current source is private and available to Obsidian for review; historical public source does not represent the current release. See [LICENSE](LICENSE) for terms and [cover credits](assets/covers/README.md) for image sources and licenses.
+The public repository provides releases and documentation. Current source is private and available to Obsidian for review; historical public source does not represent the current release. See [LICENSE](LICENSE) for terms and [cover credits](docs/COVER-CREDITS.md) for image sources and licenses.
 
 Permission to modify the source does not automatically grant paid entitlements. The license preserves legitimate maintenance, modifications, and good-faith security research while restricting bypasses and unlocked distributions intended to provide unauthorized paid access. See [licensing boundaries and support](docs/LICENSE-SUPPORT.md) for activation recovery and reporting guidance.
